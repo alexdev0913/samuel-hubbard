@@ -1,0 +1,284 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "164183594928c711f7": {
+      "type": "full-banner",
+      "settings": {
+        "overlay_opacity": 15,
+        "banner_background_image": "shopify:\/\/shop_images\/listen_e05544ab-b7c4-4ccf-8426-8956fe35f773.jpg",
+        "video": "",
+        "video_mobile": "",
+        "page_hero": false,
+        "unspace_above": false,
+        "unspace_section": false,
+        "banner_height": "screen-height",
+        "content_alignment": "center",
+        "banner_eyebrow": "",
+        "banner_headline": "<p>Listen to your feet<\/p>",
+        "banner_headline_animation": false,
+        "banner_headline_size": "t-h-xl",
+        "banner_subhead": "",
+        "banner_subhead_size": "h3",
+        "banner_body": "<p>There are more than 15 billion feet in this world. They work. They play. They hike. They explore. And too often they complain. So, of all the things we do, the most important is this: We listen. We listen to the feet that have been pushed and prodded, squeezed and ignored, forced to put on a happy face when they’re hurting inside. Our obsession is to make feet smile. Because when your feet are happier, the world is a way happier place.<\/p>",
+        "banner_body_size": "body-large",
+        "content_color": "#ffffff",
+        "banner_button_margin": 30
+      }
+    },
+    "1631049156fc2beb5c": {
+      "type": "mobile-page-menu",
+      "settings": {
+        "menu": "mobile-intra-page"
+      }
+    },
+    "16310474268d020d4f": {
+      "type": "three-points",
+      "blocks": {
+        "58d0bd65-8af7-4383-943d-5e9ca1892bc4": {
+          "type": "point",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/5-17_raygun_insoles_composite_1.png",
+            "title": "Hubbard Comfort System",
+            "body": "Our removable memory foam insoles are coveted by discerning feet around the world."
+          }
+        },
+        "550790fb-7575-4921-93fe-f08951931141": {
+          "type": "point",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/shutterstock_1103842046_1.png",
+            "title": "High quality materials",
+            "body": "Could we buy cheaper eyelets? Yes. Could we find less expensive laces? Yes. Do we? No, and no."
+          }
+        },
+        "cc1de123-a60e-4328-a6bc-12d75f3d9719": {
+          "type": "point",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image_69.png",
+            "title": "Resoleable",
+            "body": "Many of our shoes can be re-soled when you're ready, doubling the life of your favorite Hubbards."
+          }
+        }
+      },
+      "block_order": [
+        "58d0bd65-8af7-4383-943d-5e9ca1892bc4",
+        "550790fb-7575-4921-93fe-f08951931141",
+        "cc1de123-a60e-4328-a6bc-12d75f3d9719"
+      ],
+      "settings": {
+        "icon_size": "120",
+        "title": "ENGINEERED FOR THE MOST DEMANDING FEET ON EARTH. YOURS.",
+        "body": ""
+      }
+    },
+    "1631035234b47ef171": {
+      "type": "full-banner",
+      "settings": {
+        "overlay_opacity": 10,
+        "banner_background_image": "shopify:\/\/shop_images\/about_full_banner_9273b987-5894-46cf-83fb-17e7179be3ba.jpg",
+        "banner_background_image_mobile": "shopify:\/\/shop_images\/about_full_banner_mobile.jpg",
+        "video": "",
+        "video_mobile": "",
+        "page_hero": true,
+        "unspace_above": false,
+        "unspace_section": false,
+        "banner_height": "screen-height",
+        "content_alignment": "center",
+        "banner_eyebrow": "",
+        "banner_headline": "<p>Designed from the inside out<\/p>",
+        "banner_headline_animation": false,
+        "banner_headline_size": "t-h-xl",
+        "banner_subhead": "",
+        "banner_subhead_size": "body-large",
+        "banner_body": "<p>What gets us up in the morning? Creating shoes that make feet smile. We start with the parts that your feet really care about: our proprietary memory foam insole system, shock absorbant outsoles, gentle arch support, and frictionless linings. Then we wrap the whole thing in premium leathers and sustainable materials for a unbeatable combination of style and comfort.<\/p>",
+        "banner_body_size": "body-large",
+        "content_color": "#ffffff",
+        "banner_button_margin": 60
+      }
+    },
+    "1631036657b546eb08": {
+      "type": "full-image-and-text",
+      "blocks": {
+        "a7ec3e06-1e2b-4943-9d66-bd32996051fe": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/bruce.jpg",
+            "image_position": "left",
+            "background_color": "#f6f6f6",
+            "title": "<p>an obsession with comfortable shoes<\/p>",
+            "highlight_color": "",
+            "subhead": "",
+            "body": "Everything begins in Mill Valley, California in the San Francisco Bay Area. Our founder, Bruce Katz calls this gorgeous part of the Golden Coast home and takes much of his inspiration from this region. He continues to honor his family's legacy of shoemaking and his own lifetime of experience in engineering the world's most comfortable shoes.",
+            "first_url": "",
+            "first_label": "",
+            "second_url": "",
+            "second_label": ""
+          }
+        }
+      },
+      "block_order": [
+        "a7ec3e06-1e2b-4943-9d66-bd32996051fe"
+      ],
+      "settings": {
+      }
+    },
+    "1631040151a7b9d51c": {
+      "type": "text-beneath-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/image_71.png",
+        "background_color": "#f6f6f6",
+        "title": "made in Portugal",
+        "first_body": "Samuel Hubbard shoes are handcrafted in Portugal. Our skilled artisans bring Hubbards to life. We combine technology and scientific curiosity with generations of expertise.",
+        "second_body": "No detail is too small. We obsess over every batch of leather, every lining, and every stitch."
+      }
+    },
+    "163103963156ac29a0": {
+      "type": "full-image-and-text",
+      "blocks": {
+        "c5eb7740-6639-48a4-aa26-3fb1912a03ec": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image_57_1.png",
+            "image_position": "right",
+            "background_color": "#ffffff",
+            "title": "<p>your feet <br\/>deserve the best<\/p>",
+            "highlight_color": "",
+            "subhead": "",
+            "body": "We use only the finest materials in our craft. We searched the world for the softest, most luxurious leathers, German-made 100% Merino wool in a rainbow of colors, and premium shearling that would normally be reserved for the most expensive winter coats. It all adds up to shoes so comfortable, you don't even know you're wearing them.",
+            "first_url": "",
+            "first_label": "",
+            "second_url": "",
+            "second_label": ""
+          }
+        }
+      },
+      "block_order": [
+        "c5eb7740-6639-48a4-aa26-3fb1912a03ec"
+      ],
+      "settings": {
+      }
+    },
+    "16310421066570c627": {
+      "type": "two-column",
+      "blocks": {
+        "ed67619f-dce1-4b55-8745-dd6a73ac8b03": {
+          "type": "column",
+          "settings": {
+            "title": "Resolable",
+            "body": "A big part of our journey at Samuel Hubbard is our path toward sustainability. This means we design our shoes to last. Most of our styles are easily resolable, adding years to the life of your Hubbards."
+          }
+        },
+        "a6a2cb8e-54ce-4a75-92db-b0560af34986": {
+          "type": "column",
+          "settings": {
+            "title": "Slow Fashion",
+            "body": "Our philosophy is \"less is more.\" A good quality shoe should last years, not months. We achieve this by using premium materials that take longer to wear. We've also started using PET material (made from recycled water bottles) for several of our styles."
+          }
+        }
+      },
+      "block_order": [
+        "ed67619f-dce1-4b55-8745-dd6a73ac8b03",
+        "a6a2cb8e-54ce-4a75-92db-b0560af34986"
+      ],
+      "settings": {
+        "overlay": 40,
+        "image": "shopify:\/\/shop_images\/SUSTAINABILITY.png",
+        "background_color": "",
+        "text_color": "",
+        "title": "Sustainability"
+      }
+    },
+    "1631039524806853e6": {
+      "type": "full-image-and-text",
+      "blocks": {
+        "65b96495-e165-4e8c-b1c0-f5a6bfa0375b": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/wide.jpg",
+            "image_position": "right",
+            "background_color": "#f6f6f6",
+            "title": "<p>It's a wide world<\/p>",
+            "highlight_color": "",
+            "subhead": "Understanding Wide Shoe Sizes",
+            "body": "You deserve to wear shoes that keep you truly comfortable and that’s why we don’t say “just size up.” Wearing the wrong shoe size can have negative consequences for your well-being. Most other companies design wides by adding more material. We take a different approach and create true wides by using shoe lasts made specifically for wide widths.  It's our priority to make your feet smile.",
+            "first_url": "shopify:\/\/pages\/size-guide",
+            "first_label": "Size Guide for Men",
+            "second_url": "shopify:\/\/pages\/size-guide-women",
+            "second_label": "Size Guide for Women"
+          }
+        }
+      },
+      "block_order": [
+        "65b96495-e165-4e8c-b1c0-f5a6bfa0375b"
+      ],
+      "settings": {
+      }
+    },
+    "16310501838aed7a03": {
+      "type": "checkmarks",
+      "blocks": {
+        "41133ab3-c75f-473f-9bfe-bd2a8b599268": {
+          "type": "point",
+          "settings": {
+            "title": "Our Superior Sole System"
+          }
+        },
+        "99bc0747-4053-482c-abba-030ee81feb68": {
+          "type": "point",
+          "settings": {
+            "title": "Luxury, Ethical Materials"
+          }
+        },
+        "96f42f9e-7816-409c-be33-cdd76805448d": {
+          "type": "point",
+          "settings": {
+            "title": "Quality Craftsmanship in Portugal"
+          }
+        },
+        "4891c48c-e276-4695-869b-1fddadc10576": {
+          "type": "point",
+          "settings": {
+            "title": "The Best Insoles in the Shoe Industry"
+          }
+        },
+        "b16dce4d-3483-4d44-b075-257621792702": {
+          "type": "point",
+          "settings": {
+            "title": "Innovative Design"
+          }
+        }
+      },
+      "block_order": [
+        "41133ab3-c75f-473f-9bfe-bd2a8b599268",
+        "99bc0747-4053-482c-abba-030ee81feb68",
+        "96f42f9e-7816-409c-be33-cdd76805448d",
+        "4891c48c-e276-4695-869b-1fddadc10576",
+        "b16dce4d-3483-4d44-b075-257621792702"
+      ],
+      "settings": {
+        "title": "10,000 happy feet...and counting",
+        "subtitle": "5 Reasons Hubbards are a Great Value",
+        "body": "We work hard to ensure that our shoes are worth the premium price, so we’re happy to bring you into the process. Our customers can feel the difference too⁠—that’s why we have over 10,000 five star reviews. If you know someone who has slipped their feet into Hubbards, they can tell you our shoes are worth it from experience. Read on for the details about why our shoes are exceptional. ",
+        "url": "shopify:\/\/pages\/product-story",
+        "url_label": "Product Story"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "164183594928c711f7",
+    "1631049156fc2beb5c",
+    "16310474268d020d4f",
+    "1631035234b47ef171",
+    "1631036657b546eb08",
+    "1631040151a7b9d51c",
+    "163103963156ac29a0",
+    "16310421066570c627",
+    "1631039524806853e6",
+    "16310501838aed7a03"
+  ]
+}

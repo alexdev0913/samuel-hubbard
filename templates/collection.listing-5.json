@@ -1,0 +1,137 @@
+{
+  "sections": {
+    "banner": {
+      "type": "collection-list-banner",
+      "settings": {
+        "hero_image_split": true,
+        "image": "shopify:\/\/shop_images\/CLP_split_walking_c0d57f2d-1947-4974-8cbe-5f6521a51333.jpg",
+        "headline": "Walk In Comfort",
+        "body": "Our customer Brian writes: \"A revelation in walking. My Hubbards fit like a sock and I feel like I am barefoot. Springy, a wide rounded toe box, and a solid sole for concrete or trail—these shoes have hardly left my feet since I got them. What I love best is that I forget I have them on.\""
+      }
+    },
+    "clp-three-columns": {
+      "type": "clp-three-columns",
+      "blocks": {
+        "53c0711b-443e-4b9c-8910-1693f5fb8750": {
+          "type": "column",
+          "settings": {
+            "icon": "leather",
+            "headline": "Genuine Leather",
+            "body": "<p>We use only the finest materials in our craft. No detail is too small. We obsess over every batch of leather, every lining, and every stitch.<\/p>"
+          }
+        },
+        "4fd139be-6836-494a-9145-ee8cc6d7a3f2": {
+          "type": "column",
+          "settings": {
+            "icon": "healthy-feet",
+            "headline": "Podiatrist Recommended",
+            "body": "<p>Removable memory foam insoles provide extra cushioning or allow you to use your own orthotics. Customer proven to reduce pain. <\/p>"
+          }
+        },
+        "875ebe37-deb6-4f91-bf1c-ba47fa8d224b": {
+          "type": "column",
+          "settings": {
+            "icon": "comfort-system",
+            "headline": "Hubbard Comfort System",
+            "body": "<p>We took premium materials and added arch support, memory foam insoles, and a cushy cupsole to put a spring in your step.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "53c0711b-443e-4b9c-8910-1693f5fb8750",
+        "4fd139be-6836-494a-9145-ee8cc6d7a3f2",
+        "875ebe37-deb6-4f91-bf1c-ba47fa8d224b"
+      ],
+      "settings": {}
+    },
+    "main": {
+      "type": "main-list-collections",
+      "blocks": {
+        "0a017779-2628-477d-8c2d-e555e1178c65": {
+          "type": "collection",
+          "settings": {
+            "collection": "mens-sneakers",
+            "title": "",
+            "description": "These sneakers are made for walking. Where will your Hubbards take you?",
+            "cta_url": ""
+          }
+        },
+        "5e7dfecb-ca2f-408c-8b07-a702676f429d": {
+          "type": "collection",
+          "settings": {
+            "collection": "mens-dress-sneakers",
+            "title": "",
+            "description": "Walk in style with men’s dress sneakers that are engineered for comfort.",
+            "cta_url": ""
+          }
+        },
+        "98ce71d6-97ef-4689-915c-eff09fe07eeb": {
+          "type": "collection",
+          "settings": {
+            "collection": "mens-boat-shoes",
+            "title": "",
+            "description": "Look forward to blue skies and new endeavors with these boat shoes for men. Slip into a pair for boating and wandering through coastal towns.",
+            "cta_url": ""
+          }
+        },
+        "b2efe305-a017-46a1-9313-7b0a1f63f129": {
+          "type": "collection",
+          "settings": {
+            "collection": "mens-moccasins",
+            "title": "",
+            "description": "A classic Italian driver moccasin design. Embrace your free spirit with these stylish walking shoes for travel.",
+            "cta_url": "shopify:\/\/products\/free-spirit-for-him-brown-leather"
+          }
+        }
+      },
+      "block_order": [
+        "0a017779-2628-477d-8c2d-e555e1178c65",
+        "5e7dfecb-ca2f-408c-8b07-a702676f429d",
+        "98ce71d6-97ef-4689-915c-eff09fe07eeb",
+        "b2efe305-a017-46a1-9313-7b0a1f63f129"
+      ],
+      "settings": {}
+    },
+    "1631753371219576eb": {
+      "type": "three-column",
+      "blocks": {
+        "07f09431-dcea-4c22-ba5b-0af66d314088": {
+          "type": "column",
+          "settings": {
+            "icon": "smile",
+            "headline": "30 Day Happiness Guarantee",
+            "body": "<p>Give your new Hubbards a 30-day walk test. If you are not delighted by their comfort, we’ll refund your purchase.<\/p>"
+          }
+        },
+        "99376e18-f7dd-4ef2-a82a-49f53bd9eccc": {
+          "type": "column",
+          "settings": {
+            "icon": "tradeup",
+            "headline": "Trade-Up",
+            "body": "<p>$50 off a new pair of Hubbards when you donate your old shoes –any brand– to someone in need.<\/p>"
+          }
+        },
+        "b3906969-4299-4fda-9670-699a9e692cc8": {
+          "type": "column",
+          "settings": {
+            "icon": "chat",
+            "headline": "Customer Service",
+            "body": "<p>Talk to a fit expert!<\/p><p>Monday-Friday 7am-5pm PST<\/p><p>(844) 482-4800<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "07f09431-dcea-4c22-ba5b-0af66d314088",
+        "99376e18-f7dd-4ef2-a82a-49f53bd9eccc",
+        "b3906969-4299-4fda-9670-699a9e692cc8"
+      ],
+      "settings": {}
+    }
+  },
+  "order": [
+    "banner",
+    "clp-three-columns",
+    "main",
+    "1631753371219576eb"
+  ]
+}

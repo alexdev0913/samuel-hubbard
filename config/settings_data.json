@@ -1,0 +1,777 @@
+{
+  "current": {
+    "social_twitter_link": "test",
+    "favicon": "shopify:\/\/shop_images\/Artboard_1_copy.png",
+    "cookie_more-link": "\/",
+    "support_number": 8444824800,
+    "global-shipping_and_returns_policy": "Shipping options are available at checkout. We offer free UPS ground shipping, and also expedited options. We only ship within the United States. If you have questions, please contact Customer Service.",
+    "email_capture_image_desktop": "shopify:\/\/shop_images\/image_4_1_2800x_3e9c4d5b-0e8b-49f3-90fc-c1a8f15ee9bd.png",
+    "email_capture_image_mobile": "shopify:\/\/shop_images\/image-mobile_164a6c6d-81cb-4173-b65f-fd392f20558c.jpg",
+    "email_capture_headline": "Be the first to know",
+    "email_capture_body": "Receive 10% off your first order and stay up-to-date on product releases.",
+    "email_capture_placeholder": "Email",
+    "empty_cart_cta_url": "https:\/\/samuelhubbard.com",
+    "checkout_logo_image": "shopify:\/\/shop_images\/favicon_bc7395ea-5205-47e4-88cf-d47717d6cccc.png",
+    "checkout_logo_size": "large",
+    "checkout_sidebar_background_color": "#ffffff",
+    "checkout_accent_color": "#0a0a0a",
+    "checkout_button_color": "#0a0a0a",
+    "sections": {
+      "announcement-bar": {
+        "type": "announcement-bar",
+        "blocks": {
+          "announcement-bar-0": {
+            "type": "announcement",
+            "settings": {
+              "text": "FREE SHIPPING, RETURNS & EXCHANGES",
+              "link": "https:\/\/samuelhubbard.com\/pages\/returns-exchanges"
+            }
+          }
+        },
+        "block_order": [
+          "announcement-bar-0"
+        ],
+        "settings": {
+        }
+      },
+      "header": {
+        "type": "header",
+        "blocks": {},
+        "block_order": [],
+        "settings": {
+          "menu": "new-navigation-menu",
+          "transparent_header-home": true,
+          "transparent_header-list": "",
+          "transparent_header-text-color": "#000000"
+        }
+      },
+      "footer": {
+        "type": "footer",
+        "blocks": {
+          "footer-0": {
+            "type": "link_list",
+            "settings": {
+              "heading": "About",
+              "menu": "footer-about"
+            }
+          },
+          "e9035b7e-b2b0-4014-8ce9-64f178284710": {
+            "type": "link_list",
+            "settings": {
+              "heading": "Support",
+              "menu": "footer-customer-service"
+            }
+          },
+          "a4717399-5f0f-4c97-8a66-6ea4eb6ed51a": {
+            "type": "social",
+            "settings": {
+              "heading": "Follow Us",
+              "fb_url": "https:\/\/www.facebook.com\/SamuelHubbardCo\/",
+              "ig_url": "https:\/\/www.instagram.com\/samuelhubbardco\/",
+              "tw_url": "https:\/\/twitter.com\/samuelhubbardco",
+              "yt_url": "",
+              "tt_url": "",
+              "pt_url": "https:\/\/www.pinterest.com\/samuelhubbardco\/_created\/"
+            }
+          },
+          "deb82b67-8d05-41f3-82ea-f8cc423ebef9": {
+            "type": "support",
+            "settings": {
+              "heading": "Customer Service",
+              "support_text": "Monday-Friday 7am-5pm PST",
+              "support_link": "shopify:\/\/pages\/contact",
+              "menu_heading": "Account",
+              "menu": "footer-account"
+            }
+          },
+          "fe688ab1-f8e5-47b8-a0c1-6c0a1c598c8b": {
+            "type": "catalog",
+            "settings": {
+              "heading": "Catalog",
+              "catalog_text": "Get your catalog in your mailbox",
+              "image": "shopify:\/\/shop_images\/november_2022_52pg_v11-1.jpg",
+              "cta_text": "Order a Free Catalog"
+            }
+          }
+        },
+        "block_order": [
+          "footer-0",
+          "e9035b7e-b2b0-4014-8ce9-64f178284710",
+          "a4717399-5f0f-4c97-8a66-6ea4eb6ed51a",
+          "deb82b67-8d05-41f3-82ea-f8cc423ebef9",
+          "fe688ab1-f8e5-47b8-a0c1-6c0a1c598c8b"
+        ],
+        "settings": {
+          "subscribe_headline": "Subscribe to our Newsletter",
+          "subscribe_placeholder": "Email",
+          "subscribe_button": "Subscribe",
+          "subscribe_success_message": "Thank you for subscribing!"
+        }
+      },
+      "mini-bag": {
+        "type": "mini-bag",
+        "blocks": {
+          "8d697a57-46ef-46e8-9e3f-d62a59f87105": {
+            "type": "product",
+            "settings": {
+              "accessory": "slim-bifold-wallet-black-leather"
+            }
+          },
+          "313a3ebd-259d-4237-8e6e-3ea3ca9332a9": {
+            "type": "product",
+            "settings": {
+              "accessory": "matchpoint-belt-whiskey-tan"
+            }
+          }
+        },
+        "block_order": [
+          "8d697a57-46ef-46e8-9e3f-d62a59f87105",
+          "313a3ebd-259d-4237-8e6e-3ea3ca9332a9"
+        ],
+        "settings": {
+          "highlight_text": "FREE SHIPPING, RETURNS & EXCHANGES",
+          "addon_title": "Accessorize Your Order"
+        }
+      },
+      "full-banner": {
+        "type": "full-banner",
+        "settings": {
+          "overlay_opacity": 5,
+          "banner_background_image": "shopify:\/\/shop_images\/Rectangle_226_7865136b-232d-43d9-914d-bb1e14028ef2.png",
+          "video": "",
+          "video_mobile": "",
+          "page_hero": false,
+          "unspace_above": false,
+          "unspace_section": false,
+          "banner_height": "screen-height",
+          "content_alignment": "center",
+          "banner_eyebrow": "",
+          "banner_headline": "<p>SAMUEL HUBBARD Retailers<\/p>",
+          "banner_headline_animation": false,
+          "banner_headline_size": "t-h-xl",
+          "banner_subhead": "<p>We've partnered with the top retailers<\/p>",
+          "banner_subhead_size": "h3",
+          "banner_body": "",
+          "banner_body_size": "body-tall",
+          "content_color": "#ffffff",
+          "button_color": "#ffffff",
+          "button_hover_text_color": "#000000",
+          "button_hover_background_color": "#000000",
+          "first_cta_label": "",
+          "first_cta_url": "",
+          "first_cta_style": "button--primary",
+          "second_cta_label": "",
+          "second_cta_url": "",
+          "second_cta_style": "button--primary",
+          "banner_button_margin": 16,
+          "show_content_below_image": false
+        }
+      },
+      "global-swatches-color": {
+        "type": "global-swatches-color",
+        "blocks": {
+          "227a4d63-fa4a-42df-a0d5-79bc0c0c1618": {
+            "type": "swatch",
+            "settings": {
+              "title": "Gray",
+              "color": "#9094a1"
+            }
+          },
+          "23def468-3fee-4957-b390-57d1d35cf547": {
+            "type": "swatch",
+            "settings": {
+              "title": "Tan",
+              "color": "#bbab8e"
+            }
+          },
+          "3708f261-4f6d-4437-85fa-d0d39e32812e": {
+            "type": "swatch",
+            "settings": {
+              "title": "Blue",
+              "color": "#18347b"
+            }
+          },
+          "68242c27-73b9-469f-9ec0-783cd718442a": {
+            "type": "swatch",
+            "settings": {
+              "title": "Black",
+              "color": "#4f4b51"
+            }
+          },
+          "5275b24d-f95f-4273-8bc1-68f1ecfa3300": {
+            "type": "swatch",
+            "settings": {
+              "title": "White",
+              "color": "#eeeeee"
+            }
+          },
+          "65551c9d-ebaf-4950-a474-57f7449fced6": {
+            "type": "swatch",
+            "settings": {
+              "title": "Black Leather",
+              "color": ""
+            }
+          },
+          "3b8c8b65-5567-4893-90d3-eda97e3d592c": {
+            "type": "swatch",
+            "settings": {
+              "title": "Cappucino",
+              "color": "#c27c50"
+            }
+          },
+          "b54dd6e1-54fe-4e3c-a481-eca83ca96539": {
+            "type": "swatch",
+            "settings": {
+              "title": "Espresso Brown Leather Cappucino",
+              "color": "#5a2c28"
+            }
+          },
+          "33b73a40-8ce4-43a8-89dc-20f111794e0e": {
+            "type": "swatch",
+            "settings": {
+              "title": "Gray Leather",
+              "color": "#6e6e6e"
+            }
+          },
+          "db4f4ef4-be23-49ff-a43c-abcd8af2e4b4": {
+            "type": "swatch",
+            "settings": {
+              "title": "Navy Leather",
+              "color": "#384368"
+            }
+          },
+          "e87b08b4-bc65-41cf-bf7c-e92f14198c2f": {
+            "type": "swatch",
+            "settings": {
+              "title": "Rust Nubuck",
+              "color": "#936447"
+            }
+          },
+          "694d9777-c5e2-4cd5-a8a4-b615a9f5fdfd": {
+            "type": "swatch",
+            "settings": {
+              "title": "Sky Blue",
+              "color": "#b2dee7"
+            }
+          },
+          "e0941a61-132f-4b7c-af39-5664ac24d1a1": {
+            "type": "swatch",
+            "settings": {
+              "title": "Tan Leather",
+              "color": "#b47a57"
+            }
+          },
+          "026c2510-a8cf-4473-bde1-ba9c453f6c27": {
+            "type": "swatch",
+            "settings": {
+              "title": "Taupe",
+              "color": "#c6a693"
+            }
+          }
+        },
+        "block_order": [
+          "227a4d63-fa4a-42df-a0d5-79bc0c0c1618",
+          "23def468-3fee-4957-b390-57d1d35cf547",
+          "3708f261-4f6d-4437-85fa-d0d39e32812e",
+          "68242c27-73b9-469f-9ec0-783cd718442a",
+          "5275b24d-f95f-4273-8bc1-68f1ecfa3300",
+          "65551c9d-ebaf-4950-a474-57f7449fced6",
+          "3b8c8b65-5567-4893-90d3-eda97e3d592c",
+          "b54dd6e1-54fe-4e3c-a481-eca83ca96539",
+          "33b73a40-8ce4-43a8-89dc-20f111794e0e",
+          "db4f4ef4-be23-49ff-a43c-abcd8af2e4b4",
+          "e87b08b4-bc65-41cf-bf7c-e92f14198c2f",
+          "694d9777-c5e2-4cd5-a8a4-b615a9f5fdfd",
+          "e0941a61-132f-4b7c-af39-5664ac24d1a1",
+          "026c2510-a8cf-4473-bde1-ba9c453f6c27"
+        ],
+        "settings": {
+        }
+      },
+      "global-cookies": {
+        "type": "global-cookies",
+        "settings": {
+          "cookies_show": false,
+          "cookies_text": "<p>We use cookies to improve our site and your shopping experience, and have recently updated our cookie policy. <a href=\"\/policies\/privacy-policy\" title=\"Privacy Policy\">Learn More<\/a><\/p>",
+          "cookies_accept_label": ""
+        }
+      },
+      "subscribe_with-image": {
+        "type": "subscribe_with-image",
+        "settings": {
+        }
+      },
+      "faq-content": {
+        "type": "faq-content",
+        "blocks": {
+          "18df206d-1821-4648-b951-044b27468018": {
+            "type": "section_title",
+            "settings": {
+              "title": "Placing an Order"
+            }
+          },
+          "107f6557-656d-4c7d-8e71-12228c2925c6": {
+            "type": "faq",
+            "settings": {
+              "title": "How do I place an order?",
+              "answer": "<p>There are two ways to make purchases:<\/p><p><strong>Online.<\/strong> Add items to your shopping cart and follow the checkout process.<\/p><p><strong>Phone.<\/strong> Call our Fit Specialists - (844) 482-4800 Monday through Friday, 7AM - 5PM PT.<\/p>"
+            }
+          },
+          "39ee4619-98c4-4fcd-b33f-84c676b87c7f": {
+            "type": "faq",
+            "settings": {
+              "title": "Do you ship to PO or APO\/FPO Boxes?",
+              "answer": "<p>We are unable to ship to these types of addresses at this time. All orders must be shipped to a physical address.<\/p>"
+            }
+          },
+          "c8e668db-7986-43c3-9004-8c8cc296cdc1": {
+            "type": "faq",
+            "settings": {
+              "title": "What happens when an item is out of stock?",
+              "answer": "<p>We do our best to keep items in stock, but cannot always predict when an item will become highly sought after or when a shipment to our warehouse will be delayed.<\/p><p>If an item is out of stock, you will not be able to add it to your cart. Instead, you will have the option to add your information to the waitlist for that item and be notified when it is available. To sign up for the waitlist for an out of stock item, click the Waitlist button and enter your contact information. We will notify you via email once the item is available.<\/p><p>If you sign up for the waitlist, you are not pre-ordering and your credit card is not charged. When you receive the “your item is available” email, you must respond in order to place your order.<\/p>"
+            }
+          },
+          "10c0b477-3153-497d-860a-7b6d3adbf692": {
+            "type": "faq",
+            "settings": {
+              "title": "Will I receive an email confirmation after placing an order?",
+              "answer": "<p>Yes, we will email you an order confirmation shortly after placing your order. We will also send you a shipment confirmation email with tracking information as soon as your order ships.<\/p>"
+            }
+          },
+          "136dc290-4f13-414a-ba16-f99b21a9a3e2": {
+            "type": "faq",
+            "settings": {
+              "title": "How do I change my billing\/shipping address?",
+              "answer": "<p>You have the opportunity to update your personal information during checkout, including billing and shipping addresses. Review the information carefully for accuracy. Once you submit your order, it is processed right away for immediate shipment.<\/p>"
+            }
+          },
+          "fbc59444-7440-4260-8c7a-13fa28d34ab1": {
+            "type": "faq",
+            "settings": {
+              "title": "What are my payment options?",
+              "answer": "<p>We accept the following payment methods:<\/p><p>Visa<\/p><p>MasterCard<\/p><p>American Express<\/p><p>Discover<\/p><p>PayPal<\/p><p>Afterpay<\/p><p>Apple Pay<\/p>"
+            }
+          },
+          "1c99a56a-e13c-4606-b867-83b7729d1de9": {
+            "type": "faq",
+            "settings": {
+              "title": "Is my information secure?",
+              "answer": "<p>All of your transactions are protected by SSL encryption software. This encrypts your credit card number so it cannot be read as the information travels over the internet. This industry standard is the best software available today for secure commerce transactions.<\/p><p>For more information, please see our Privacy Policy.<\/p>"
+            }
+          },
+          "04cc88fc-43d5-43ca-8d89-9f59452efd8b": {
+            "type": "faq",
+            "settings": {
+              "title": "When paying with a credit card, at what point does SamuelHubbard.com charge my credit card account?",
+              "answer": "<p>Once your order is completed, the funds for the full amount of your order will be withdrawn from your account.<\/p>"
+            }
+          },
+          "213b3934-1f5b-4a2a-88f2-44f67fcda059": {
+            "type": "faq",
+            "settings": {
+              "title": "Will I be charged sales tax?",
+              "answer": "<p>Sales tax will be collected for certain orders, depending upon your shipping address. You will see any and all applicable taxes added to your order during checkout. All taxes will be credited for returns or exchanges.<\/p>"
+            }
+          },
+          "40af2e84-4353-4169-8859-e9f8bef6b88b": {
+            "type": "faq",
+            "settings": {
+              "title": "Can I change or cancel an order?",
+              "answer": "<p>We'll try our best, but keep in mind we want to get your order out as quickly as possible. If you call within an hour of placing an order, we may be able to cancel it so please call us as soon as possible at (844) 482.4800 Monday through Friday, 7AM - 5PM PT.<\/p>"
+            }
+          },
+          "64be2482-7bfc-46c7-9bf1-3cb4e8c7151e": {
+            "type": "section_title",
+            "settings": {
+              "title": "Shipping"
+            }
+          },
+          "4187ab34-edf3-4dae-b8a0-141179458be2": {
+            "type": "faq",
+            "settings": {
+              "title": "How long does it take to receive my order?",
+              "answer": "<p>All orders are shipped via UPS. Orders are shipped Monday through Friday, excluding holidays. Note: Processing time can take 1-2 business days before orders are shipped.<\/p><p>View full shipping details and rates. <\/p>"
+            }
+          },
+          "9ebd0f9a-659d-4d36-bd75-5d4d0abfe5a2": {
+            "type": "faq",
+            "settings": {
+              "title": "How do I know if my order shipped?",
+              "answer": "<p>As soon as your order is on its way, we’ll email a shipping confirmation. The email address you provide is the one we use for any order updates. To ensure Samuel Hubbard emails are not blocked by your provider’s filter, you may also want to add weborders@samuelhubbard.com to your email address book.<\/p><p>If you have registered an online account with us, you can also go to your www.samuelhubbard.com My Account page to find your order details.<\/p>"
+            }
+          },
+          "4cf90730-afb8-41ed-87b1-58e91bd9b314": {
+            "type": "faq",
+            "settings": {
+              "title": "What if I don’t get an order\/shipping confirmation?",
+              "answer": "<p>Check your SPAM folder. Sometimes Samuel Hubbard emails are blocked by your provider’s filter. To keep this from occurring, add weborders@samuelhubbard.com to your email address book.<\/p><p>If this isn’t the problem, contact Customer Service at support@samuelhubbard.com or (844) 482.4800 Monday through Friday, 7AM - 5PM PT.<\/p>"
+            }
+          },
+          "464c991c-922d-4094-95f5-985a44267a10": {
+            "type": "faq",
+            "settings": {
+              "title": "Do you ship to Alaska and Hawaii?",
+              "answer": "<p>Yes, orders can be shipped to Alaska and Hawaii. Please note: orders shipped to Alaska and Hawaii with UPS Ground may take up to 10 business days to arrive.<\/p>"
+            }
+          },
+          "93f7e082-fcc0-4467-9dc1-c3ffcec0c696": {
+            "type": "faq",
+            "settings": {
+              "title": "Do you ship to International addresses?",
+              "answer": "<p>At this time, we only ship to U.S. addresses. You can check Amazon for international options.<\/p>"
+            }
+          },
+          "94c7a018-1508-46cf-9579-5f5ba6299fd7": {
+            "type": "faq",
+            "settings": {
+              "title": "Where are orders shipped from?",
+              "answer": "<p>All orders are shipped from our warehouse in Hayward, California.<\/p>"
+            }
+          },
+          "faf6f534-dab9-4067-a2b3-918b92f4fcd4": {
+            "type": "faq",
+            "settings": {
+              "title": "What happens if I don’t get my order when I expected to receive it?",
+              "answer": "<p>Most orders are received within 5-10 business days from the time they ship. There can be exceptions due to unexpected weather conditions or other unforeseen events. We ask that you allow up to a total of 10 business days for delivery from the time you receive your shipping confirmation. You can view our standard delivery information here.<\/p><p>If you still haven’t received your order, we’ll help track it down and make sure that you get your order as quickly as possible. Contact Customer Service at support@samuelhubbard.com or (844) 482.4800 Monday through Friday, 7AM - 5PM PT.<\/p>"
+            }
+          },
+          "39baf4b0-6fbb-4efa-a1b0-6a67a4fa9bae": {
+            "type": "faq",
+            "settings": {
+              "title": "How do I track my order?",
+              "answer": "<p>Your shipping confirmation email includes a tracking number for the order along with a clickable UPS link. To review the status of your order, click the UPS link in the email.<\/p><p>If you have registered for an online account with us, you can also go to your SamuelHubbard.com account to find order details including shipping dates and tracking numbers. Enter your email address and password here to view your order history.<\/p><p>If you still need assistance please contact Customer Service at support@samuelhubbard.com or (844) 482.4800 Monday through Friday, 7AM - 5PM PT.<\/p>"
+            }
+          },
+          "46322b3a-1836-4e83-ae1d-292ef9ce4690": {
+            "type": "faq",
+            "settings": {
+              "title": "What are my shipping options?",
+              "answer": "<p>All orders are shipped via UPS. Orders are shipped Monday through Friday, excluding holidays.<\/p><p>View full shipping details and rates.<\/p>"
+            }
+          },
+          "8956428f-0692-4285-a3b6-8b0c853c09b4": {
+            "type": "section_title",
+            "settings": {
+              "title": "Returns + Exchanges"
+            }
+          },
+          "e28b394a-b58c-43d1-9fcf-0d0a0bbebdbd": {
+            "type": "faq",
+            "settings": {
+              "title": "What is the Samuel Hubbard return policy?",
+              "answer": "<p>At Samuel Hubbard we offer a Happiness Guarantee because your satisfaction is our top priority.  You are free to wear-test your shoes for 30 days and, if you are not completely satisfied, you may send them back for a full refund. We’ll even pay for the return shipping charges.<\/p><p>Note that you have up to 90 days to return new, unworn shoes.  If you changed your mind about a style, or realized right away that you don’t have a proper fit, we will accept unworn shoes for 90 days from the date of purchase.<\/p><p>View our full return policy here.<\/p>"
+            }
+          },
+          "08931f88-bc75-4efb-a121-61c88fdab084": {
+            "type": "faq",
+            "settings": {
+              "title": "How do I return a product?",
+              "answer": "<p>It’s easy. Simply contact our Customer Service team and they will assist you with your return.<\/p><p>Refunds will be issued as soon as UPS confirms receipt of your return. If you have any questions about your return or refund, please contact Customer Service.<\/p><p>Our Customer Service team can be reached at returns@samuelhubbard.com or (844) 482-4800 Monday through Friday, 7AM - 5PM PT.<\/p>"
+            }
+          },
+          "750f48a7-192a-4bad-b6e0-8e439e3f2b33": {
+            "type": "faq",
+            "settings": {
+              "title": "Can I make an exchange?",
+              "answer": "<p>We are committed to your satisfaction and our team is happy and available to provide product and sizing guidance. Please call or email us anytime and we will help you with an exchange. Our Customer Service team can be reached at (844) 482-4800 or returns@samuelhubbard.com. <\/p><p>You can also process your exchange online using our Exchange Portal.<\/p>"
+            }
+          },
+          "3d3a64b1-857e-46f4-b475-53536b96a458": {
+            "type": "faq",
+            "settings": {
+              "title": "What if I purchased my shoes at a retail store?",
+              "answer": "<p>Occasionally, Samuel Hubbard ships shoes directly to our customers at the request of the retail store where the purchase was made. If that is the case, please contact the retail store or website where the purchase was made for a refund.<\/p>"
+            }
+          },
+          "6755c7d4-93c4-4ecb-9830-c1d6b8d256f5": {
+            "type": "faq",
+            "settings": {
+              "title": "What if I have a problem with my order?",
+              "answer": "<p>We make every effort to ensure that your order is correct and arrives in excellent condition. Every packed order is inspected for accuracy by our experienced warehouse staff. If you do find an error, please contact us immediately via email at support@samuelhubbard.com or call us at (844) 482. 4800 Monday through Friday, 7AM - 5PM PT.<\/p>"
+            }
+          },
+          "e672f29f-2473-4022-9b39-c2054e2156a1": {
+            "type": "cta",
+            "settings": {
+              "cta_label": "Start a Return \/ Exchange",
+              "cta_url": "https:\/\/samuelhubbard.loopreturns.com\/#\/"
+            }
+          },
+          "6f78d204-aee3-4658-bcec-bd773a1c577c": {
+            "type": "section_title",
+            "settings": {
+              "title": "Account"
+            }
+          },
+          "aed1c007-9db3-47f2-8e1d-24c7d1be8873": {
+            "type": "faq",
+            "settings": {
+              "title": "How do I create an account?",
+              "answer": "<p>You can create an account before or after placing an order. To create an account before placing an order, click here. The personal information you enter establishes your account. Whenever you shop, use this email address and password to sign into your account. <\/p><p>Alternatively, immediately after placing an order without logging in, you will be prompted to create an account. Simply choose a password and your account will be created. By registering you will be able to quickly view and track all of your web orders, check out even more easily, and store multiple addresses. Please be assured that whatever information you provide to set up your online account is kept secure. Please see our Privacy Policy if you have further questions.<\/p>"
+            }
+          },
+          "f08a7f1f-1f55-411f-96eb-01bc62f57ec2": {
+            "type": "faq",
+            "settings": {
+              "title": "Can I reset my password?",
+              "answer": "<p>You can change your password any time. Select \"Account\" near the top of any SamuelHubbard.com webpage and enter your email address and password to access your account information. Under \"Your Account\" click the \"Edit\" button to make updates. You will have the option to change your name, email address and password.<\/p>"
+            }
+          },
+          "a62b394c-bcca-47e2-b7ec-b7cd3123fc1c": {
+            "type": "faq",
+            "settings": {
+              "title": "How do I sign out of my account?",
+              "answer": "<p>The sign out button is accessible on the “Account” page of our website.<\/p>"
+            }
+          },
+          "bb616cad-a397-4e9e-a84c-6f449502533d": {
+            "type": "section_title",
+            "settings": {
+              "title": "Sizing"
+            }
+          },
+          "4624e363-28c6-46d5-a325-6beb5b056e8b": {
+            "type": "faq",
+            "settings": {
+              "title": "What size should I buy?",
+              "answer": "<p>If you are not sure what size you wear, we recommend that you print out and use the appropriate Foot Measuring Tool below. Print out the measuring tool and piece the two pages together using the alignment arrows. You can also carefully trace your foot on paper and look up your size on the same chart in either inches or centimeters. Make sure you are standing, wearing the socks you will wear with your new shoes. Finding your size is explained on the tool itself.<\/p><p><a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0542\/1681\/8875\/files\/s-hubbard_mens_size_guide_2.pdf?v=1634853081\" target=\"_blank\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0542\/1681\/8875\/files\/s-hubbard_mens_size_guide_2.pdf?v=1634853081\"><strong>Men's Size Measurement Tool<\/strong><\/a><\/p><p><strong>Women's Size Measurement Tool<\/strong><\/p><p>Print at 100% actual size. Do not use \"fit to page\".<\/p><p>This is useful to do because then you will know what size you really should wear. Because many shoe stores don't carry wide widths they encourage people to buy a longer shoe to make room for what is actually a wider foot and not a longer foot. When these people measure their feet and then order one of our wide shoes they often find that they have the right fit for the first time.<\/p>"
+            }
+          },
+          "1a0ddba1-d6c7-48bb-a09f-bf9d31dd397c": {
+            "type": "faq",
+            "settings": {
+              "title": "What widths do you offer?",
+              "answer": "<p>We offer Medium, Wide, and Extra Wide widths in our Men’s shoes. The Medium width is equivalent to a D, Wide width is equivalent to a EE, and Extra Wide is equivalent to EEEE. Our women’s shoes are currently only available in a Medium width which is equivalent to a B width.<\/p>"
+            }
+          },
+          "087b1dad-8905-4b41-9feb-bad7d3e29d2c": {
+            "type": "faq",
+            "settings": {
+              "title": "Are your shoes made using the American size scale?",
+              "answer": "<p>Samuel Hubbard shoes are made using the American size scale. Some companies have begun to use the European size scale, but there are fewer sizes in that scale. By using the American scale, we can achieve a more accurate fit. If your current footwear is marked in European sizes and you are unsure of your American size, please use the Foot Measuring Tools above.<\/p>"
+            }
+          },
+          "f01af255-592e-431c-8603-5743cb02403c": {
+            "type": "faq",
+            "settings": {
+              "title": "Do your shoes run true to size?",
+              "answer": "<p>Our sizing corresponds to the Brannock device (the measuring device used in most shoe stores).<\/p>"
+            }
+          },
+          "d77d7043-11a3-4198-a47a-ffcc8eac09a7": {
+            "type": "section_title",
+            "settings": {
+              "title": "Shoe Care"
+            }
+          },
+          "91239573-5bde-45c1-b534-cad2072f7060": {
+            "type": "faq",
+            "settings": {
+              "title": "How do I clean my soles?",
+              "answer": "<p>People often ask us about the white and the silver Vibram soles. These are easily cleaned with either a facecloth or a sponge with a bit of dish soap and water. Stubborn stains can be cleaned with a lightly abrasive sponge pad such as you might use on a frying pan. The soles are made from a non-porous material so dirt sits on the surface.<\/p>"
+            }
+          },
+          "2346fdb9-2e2b-4349-a9b1-55a173f1fcc2": {
+            "type": "faq",
+            "settings": {
+              "title": "How do I care for Full Grain Leather?",
+              "answer": "<p>Hubbard uses the finest full grain soft leathers in our uppers. These can be kept like new using any premium wax paste shoe polish. Saddle soap is also handy for cleaning the leather occasionally. Small scuffs can be treated with liquid polishes.<\/p>"
+            }
+          },
+          "bae5c864-14ae-4333-a4a5-59e4fd37813f": {
+            "type": "faq",
+            "settings": {
+              "title": "How do I care for Nubuck and Suede Leather?",
+              "answer": "<p>The difference between suede and nubuck is in the manufacturing process. Nubuck is created by a process of brushing\/sanding the outside of leather to roughen the surface; suede on the other hand, is where the inside of the leather is brushed\/sanded. The result is that nubuck is tougher and more resilient to stains and scuffs.<\/p><p>We recommend that you spray your new shoes with a waterproofing\/stain repellant product to boost the stain repellants that we apply in the factory. This will help to keep stains off the leather in the first place. Spraying your shoes every three to four months is recommended.<\/p>"
+            }
+          },
+          "7adbd6ed-4513-44f0-a988-0702f2d12f82": {
+            "type": "faq",
+            "settings": {
+              "title": "How do I get stains off Nubuck and Suede Leather?",
+              "answer": "<p>Everyday dirt can be removed with a small brush, either a natural gum latex or a fine wire brush. Another approach is to use simple hand soap and water on a facecloth or sponge and wash the upper leather. After washing it is best to allow the shoes to dry in the air. It is never recommended to use heat to dry leather as it tends to stiffen the leather.<\/p><p>Oil stains on nubuck and suede are stubborn and are difficult to remove. If you happen to get a stain on your shoes (especially oil or grease), try to blot with whatever absorbent material is handy. Sooner is better as the stain may sink in. DO NOT use water as it may cause the stain to set. Sprinkle the stain with baby powder or any kind of talcum or chalk. DO NOT rub it in, but simply let it sit on the surface. Let it sit overnight and then lightly brush it off in the morning. Then you can use a nubuck\/suede brush, or any stiff brush such as a nail brush.<\/p><p>If there is still a stain, you can try using a commercial degreaser. If this leaves the stained area lighter, you might consider applying the baby powder and degreaser across the entire shoe.<\/p><p>Another technique is to use an abrasive cleaning eraser, just as you would use a gum eraser on paper. It is a good idea to finish the cleaning with the nubuck\/suede stiff brush.<\/p>"
+            }
+          },
+          "7226dcd3-ed47-47b5-9844-c6ea2e43f361": {
+            "type": "faq",
+            "settings": {
+              "title": "How do I care for my Navy Nubuck Hubbard Frees?",
+              "answer": "<p>The navy nubuck leather used in your Hubbard Free shoes is an unusual type of leather. It is a doubly tanned leather that is first drum-dyed as a yellow leather and then has a blue tanning dye applied to the surface. It is this special tanning that gives your shoes the unique look with the yellow edges where the leather has been cut.<\/p><p>The navy blue can become somewhat faded and we have found a blue spray dye that can restore the color of the leather. We will be happy to send this dye to you with our compliments if you contact Customer Service at support@samuelhubbard.com or (844) 482.4800 Monday through Friday, 7AM - 5PM PT. Please allow 1-2 weeks for delivery.<\/p>"
+            }
+          },
+          "3f967eed-db32-49b2-a9b8-54041b5b83f3": {
+            "type": "faq",
+            "settings": {
+              "title": "How do I care for Saddle Tan Waxhide?",
+              "answer": "<p>The leather in these shoes is called oil-tanned, pull-up leather. The leather is impregnated with oils when it is tanned, producing a leather that is extremely strong and with certain waterproof characteristics, although it is not technically waterproof.<\/p><p>Over time the oil in the leather will work its way to the surface and you will notice that the shoes tend to get darker in color, except in the creases caused by flexing. Also, a scratch on the surface will leave a lighter area. Some people call this a \"distressed look\" and think of it as rugged and real looking. If you prefer to smooth out the coloration of the shoe to a more uniform appearance, we suggest using a brush.<\/p>"
+            }
+          },
+          "bc691263-2865-4e21-9282-8b105c0fdd74": {
+            "type": "faq",
+            "settings": {
+              "title": "Can Samuel Hubbard shoes be resoled?",
+              "answer": "<p>Yes, many Samuel Hubbard shoes are constructed so that they can be beautifully resoled.<\/p><p>We’ve partnered with our friends at Tony’s Shoe Service to restore your Hubbards to their former glory. In addition to putting on brand-new Vibram® soles, Tony’s Shoe Service will clean the leather uppers and can even provide you with brand new insoles and laces for an additional fee.<\/p><p>To learn more, please visit our Resole & Refurbishment Page. <\/p>"
+            }
+          },
+          "dd354b55-fe17-4f90-be81-7097af417335": {
+            "type": "faq",
+            "settings": {
+              "title": "Do you offer replacement laces?",
+              "answer": "<p>Yes! To request replacement laces, contact Customer Service at support@samuelhubbard.com or (844) 482.4800 Monday through Friday, 7AM - 5PM PT.<\/p>"
+            }
+          },
+          "1b370e87-f471-42e5-a832-5d7b8b4dc315": {
+            "type": "faq",
+            "settings": {
+              "title": "Where are your shoes made?",
+              "answer": "<p>Our shoes are meticulously handcrafted Portugal and Brazil. Our soles come from the Vibram company in Italy. We use only the finest European leathers and materials, and strive to perfect every detail. The tanneries that we buy from comply with the European environmental standards called the REACH norms.<\/p>"
+            }
+          },
+          "c1371c4e-ae34-42cb-a3de-8419d43d7b4b": {
+            "type": "section_title",
+            "settings": {
+              "title": "Marketing + Catalog"
+            }
+          },
+          "ce807877-9acd-48d3-bac1-d2cf24799602": {
+            "type": "faq",
+            "settings": {
+              "title": "How can I receive your catalog?",
+              "answer": "<p>We would be happy to send you our latest catalog. To request a free catalog, contact Customer Service at support@samuelhubbard.com or (844) 482.4800 Monday through Friday, 7AM - 5PM PT. You can also view the online version of our <a href=\"https:\/\/fliphtml5.com\/rmolv\/xzmz\" target=\"_blank\" title=\"https:\/\/fliphtml5.com\/rmolv\/xzmz\">latest catalog here.<\/a><\/p>"
+            }
+          },
+          "dcd37a8d-1071-4b6e-95a7-2da0dcc46294": {
+            "type": "faq",
+            "settings": {
+              "title": "I no longer want to receive your catalogs. Can you remove me from your mailing list?",
+              "answer": "<p>Our Customer Service team can assist with this. Please contact us at support@samuelhubbard.com or (844) 482.4800 Monday through Friday, 7AM - 5PM PT. Please note: It may take 1-2 catalog mailing cycles for your information to be completely removed.<\/p>"
+            }
+          },
+          "af99795d-bf35-4623-b578-0adbb1d76e9e": {
+            "type": "faq",
+            "settings": {
+              "title": "I no longer want to receive your email newsletters. Can you remove me from your email list?",
+              "answer": "<p>The quickest way to be removed from our email newsletter list is to click the \"unsubscribe from this list\" link at the very bottom of the email we sent you. This is an instant, one-click unsubscribe. You will no longer receive newsletter emails from us.<\/p><p>If you don't have the newsletter email and are unable to click the unsubscribe link, we can manually remove you from our email list. Please contact us at support@samuelhubbard.com or (844) 482.4800 Monday through Friday, 7AM - 5PM PT.<\/p>"
+            }
+          }
+        },
+        "block_order": [
+          "18df206d-1821-4648-b951-044b27468018",
+          "107f6557-656d-4c7d-8e71-12228c2925c6",
+          "39ee4619-98c4-4fcd-b33f-84c676b87c7f",
+          "c8e668db-7986-43c3-9004-8c8cc296cdc1",
+          "10c0b477-3153-497d-860a-7b6d3adbf692",
+          "136dc290-4f13-414a-ba16-f99b21a9a3e2",
+          "fbc59444-7440-4260-8c7a-13fa28d34ab1",
+          "1c99a56a-e13c-4606-b867-83b7729d1de9",
+          "04cc88fc-43d5-43ca-8d89-9f59452efd8b",
+          "213b3934-1f5b-4a2a-88f2-44f67fcda059",
+          "40af2e84-4353-4169-8859-e9f8bef6b88b",
+          "64be2482-7bfc-46c7-9bf1-3cb4e8c7151e",
+          "4187ab34-edf3-4dae-b8a0-141179458be2",
+          "9ebd0f9a-659d-4d36-bd75-5d4d0abfe5a2",
+          "4cf90730-afb8-41ed-87b1-58e91bd9b314",
+          "464c991c-922d-4094-95f5-985a44267a10",
+          "93f7e082-fcc0-4467-9dc1-c3ffcec0c696",
+          "94c7a018-1508-46cf-9579-5f5ba6299fd7",
+          "faf6f534-dab9-4067-a2b3-918b92f4fcd4",
+          "39baf4b0-6fbb-4efa-a1b0-6a67a4fa9bae",
+          "46322b3a-1836-4e83-ae1d-292ef9ce4690",
+          "8956428f-0692-4285-a3b6-8b0c853c09b4",
+          "e28b394a-b58c-43d1-9fcf-0d0a0bbebdbd",
+          "08931f88-bc75-4efb-a121-61c88fdab084",
+          "750f48a7-192a-4bad-b6e0-8e439e3f2b33",
+          "3d3a64b1-857e-46f4-b475-53536b96a458",
+          "6755c7d4-93c4-4ecb-9830-c1d6b8d256f5",
+          "e672f29f-2473-4022-9b39-c2054e2156a1",
+          "6f78d204-aee3-4658-bcec-bd773a1c577c",
+          "aed1c007-9db3-47f2-8e1d-24c7d1be8873",
+          "f08a7f1f-1f55-411f-96eb-01bc62f57ec2",
+          "a62b394c-bcca-47e2-b7ec-b7cd3123fc1c",
+          "bb616cad-a397-4e9e-a84c-6f449502533d",
+          "4624e363-28c6-46d5-a325-6beb5b056e8b",
+          "1a0ddba1-d6c7-48bb-a09f-bf9d31dd397c",
+          "087b1dad-8905-4b41-9feb-bad7d3e29d2c",
+          "f01af255-592e-431c-8603-5743cb02403c",
+          "d77d7043-11a3-4198-a47a-ffcc8eac09a7",
+          "91239573-5bde-45c1-b534-cad2072f7060",
+          "2346fdb9-2e2b-4349-a9b1-55a173f1fcc2",
+          "bae5c864-14ae-4333-a4a5-59e4fd37813f",
+          "7adbd6ed-4513-44f0-a988-0702f2d12f82",
+          "7226dcd3-ed47-47b5-9844-c6ea2e43f361",
+          "3f967eed-db32-49b2-a9b8-54041b5b83f3",
+          "bc691263-2865-4e21-9282-8b105c0fdd74",
+          "dd354b55-fe17-4f90-be81-7097af417335",
+          "1b370e87-f471-42e5-a832-5d7b8b4dc315",
+          "c1371c4e-ae34-42cb-a3de-8419d43d7b4b",
+          "ce807877-9acd-48d3-bac1-d2cf24799602",
+          "dcd37a8d-1071-4b6e-95a7-2da0dcc46294",
+          "af99795d-bf35-4623-b578-0adbb1d76e9e"
+        ],
+        "settings": {
+          "heading": "FAQ",
+          "paragraph": "Got questions? We've got answers!"
+        }
+      },
+      "three-column": {
+        "type": "three-column",
+        "blocks": {
+          "251f435d-b9d3-4337-9535-6b67c9958456": {
+            "type": "column",
+            "settings": {
+              "icon": "smile",
+              "headline": "30 days happiness guarantee",
+              "body": "<p>Give your new Hubbards a 30-day walk test. If you are not delighted by their comfort, we’ll refund your purchase.<\/p>"
+            }
+          },
+          "660d3327-4c84-4cfa-a9d1-ad2d457c5670": {
+            "type": "column",
+            "settings": {
+              "icon": "tradeup",
+              "headline": "Trade-Up Program",
+              "body": "<p>$50 off a new pair of Hubbards when you donate your old shoes –any brand– to someone in need.<\/p>"
+            }
+          },
+          "e09a7651-fc27-41ec-8ecf-1bee05ef201e": {
+            "type": "column",
+            "settings": {
+              "icon": "chat",
+              "headline": "Customer Support",
+              "body": "<p><strong>(844) 482-4800<\/strong>  TALK TO A FIT EXPERT Monday-Friday 7am-5pm PST <\/p>"
+            }
+          }
+        },
+        "block_order": [
+          "251f435d-b9d3-4337-9535-6b67c9958456",
+          "660d3327-4c84-4cfa-a9d1-ad2d457c5670",
+          "e09a7651-fc27-41ec-8ecf-1bee05ef201e"
+        ],
+        "settings": {
+        }
+      },
+      "account-gate": {
+        "type": "account-gate",
+        "settings": {
+          "login_message": "Welcome to our new site! If you haven't logged in before Jan 19th, please create an account to access your order history.",
+          "register_message": "Create an account to access your profile info, order history, and more."
+        }
+      },
+      "component-background-logo": {
+        "type": "component-background-logo",
+        "settings": {
+        }
+      }
+    },
+    "content_for_index": [
+
+    ],
+    "blocks": {
+      "7570552984445421165": {
+        "type": "shopify:\/\/apps\/yotpo-product-reviews-photos\/blocks\/settings\/eb7dfd7d-db44-4334-bc49-c893b51b36cf",
+        "disabled": false,
+        "settings": {
+        }
+      }
+    }
+  }
+}

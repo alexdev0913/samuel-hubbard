@@ -1,0 +1,76 @@
+{
+  "sections": {
+    "cart-items": {
+      "type": "main-cart-items",
+      "blocks": {
+        "c808dee8-88e5-4de5-b7b9-71ddc506e433": {
+          "type": "product",
+          "settings": {
+            "accessory": "gotta-have-sole-casual-insole-neutral"
+          }
+        }
+      },
+      "block_order": [
+        "c808dee8-88e5-4de5-b7b9-71ddc506e433"
+      ],
+      "settings": {
+        "addon_title": "Accessorize Your Order"
+      }
+    },
+    "1630694553003c8303": {
+      "type": "component-background-logo",
+      "settings": {
+      }
+    },
+    "1630692847591f319e": {
+      "type": "three-column",
+      "blocks": {
+        "fdad50f6-21cb-4861-9755-a7ae216e705e": {
+          "type": "column",
+          "settings": {
+            "icon": "smile",
+            "headline": "30 Days Happiness Guarantee",
+            "body": "<p>Our removable memory foam insoles are coveted by discerning feet around the world.<\/p>"
+          }
+        },
+        "0312e581-dd30-483e-86bd-9d6044c9844a": {
+          "type": "column",
+          "settings": {
+            "icon": "shoe",
+            "headline": "Trade-Up Program",
+            "body": "<p>$50 off a new pair of Hubbards when you donate your old shoes – any brand – to someone in need.<\/p>"
+          }
+        },
+        "5f074070-61b5-4af9-afaa-95d8d22600b2": {
+          "type": "column",
+          "settings": {
+            "icon": "chat",
+            "headline": "Customer Support",
+            "body": "<p>Monday-Friday 7am-5pm PST <\/p><p>(844) 482-4800 or Chat<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "fdad50f6-21cb-4861-9755-a7ae216e705e",
+        "0312e581-dd30-483e-86bd-9d6044c9844a",
+        "5f074070-61b5-4af9-afaa-95d8d22600b2"
+      ],
+      "settings": {
+      }
+    },
+    "product-carousel": {
+      "type": "collection-slider",
+      "settings": {
+        "collection": "mens-best-sellers",
+        "title": "",
+        "description": ""
+      }
+    }
+  },
+  "order": [
+    "cart-items",
+    "product-carousel",
+    "1630694553003c8303",
+    "1630692847591f319e"
+  ]
+}

@@ -1,0 +1,147 @@
+{
+  "sections": {
+    "banner": {
+      "type": "collection-list-banner",
+      "settings": {
+        "hero_image_split": true,
+        "image": "shopify:\/\/shop_images\/podiatristclpM.jpg",
+        "headline": "Podiatrist Recommended Shoes",
+        "body": "“Samuel Hubbard shoes provide the support you need <i>and<\/i> look great every step of the way.” -Dr. Adam Howard, DPM"
+      }
+    },
+    "clp-three-columns": {
+      "type": "clp-three-columns",
+      "blocks": {
+        "28bbdcd3-5ba8-46ce-945a-408d5b9c52f1": {
+          "type": "column",
+          "settings": {
+            "icon": "insoles",
+            "headline": "Engineered for Relief",
+            "body": "<p>Removable memory foam insoles provide extra cushioning or allow you to use your own orthotics. Customer proven to reduce pain. <\/p>"
+          }
+        },
+        "17c62b63-e713-47f0-897a-e4c20fc19ace": {
+          "type": "column",
+          "settings": {
+            "icon": "science",
+            "headline": "Backed by Science",
+            "body": "<p>75% of Americans will experience foot ailments. It’s our mission to reduce that number with premium footwear.<\/p>"
+          }
+        },
+        "b001b9fc-94a6-44a4-ac1f-262963217b02": {
+          "type": "column",
+          "settings": {
+            "icon": "smile",
+            "headline": "Over 10K 5-Star Reviews",
+            "body": "<p>Happy feet means happy humans. Over 10,000 customers have left glowing reviews of our podiatrist recommended shoes.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "28bbdcd3-5ba8-46ce-945a-408d5b9c52f1",
+        "17c62b63-e713-47f0-897a-e4c20fc19ace",
+        "b001b9fc-94a6-44a4-ac1f-262963217b02"
+      ],
+      "settings": {}
+    },
+    "main": {
+      "type": "main-list-collections",
+      "blocks": {
+        "6ab0df06-13d6-4ab9-b0fa-15b16e397de0": {
+          "type": "collection",
+          "settings": {
+            "collection": "mens-plantar-fasciitis",
+            "title": "Plantar Fasciitis",
+            "description": "Experience lasting comfort. These styles contain features that help alleviate symptoms. Discover our best men’s shoes for plantar fasciitis.",
+            "cta_url": ""
+          }
+        },
+        "3460e55b-fccb-4d9d-9960-f5e3c50969af": {
+          "type": "collection",
+          "settings": {
+            "collection": "mens-flat-feet",
+            "title": "Flat Feet",
+            "description": "Turn flat feet into happy feet! These styles contain features that help alleviate symptoms. Discover our best men’s shoes for flat feet.",
+            "cta_url": ""
+          }
+        },
+        "17bdc69d-7228-424f-aa87-f33502f71441": {
+          "type": "collection",
+          "settings": {
+            "collection": "mens-neuropathy",
+            "title": "Neuropathy",
+            "description": "Premium materials eliminate pressure points. These styles contain features that help alleviate symptoms. Discover our best men’s shoes for neuropathy.",
+            "cta_url": ""
+          }
+        },
+        "0e16f499-9e22-4deb-ac16-c69caf8c3878": {
+          "type": "collection",
+          "settings": {
+            "collection": "mens-arthritis",
+            "title": "Arthritis",
+            "description": "Engineered for pain relief. These styles contain features that help alleviate symptoms. Discover our best men’s shoes for arthritis.",
+            "cta_url": ""
+          }
+        },
+        "68ccc833-ce2d-4211-90b5-315344425dc4": {
+          "type": "collection",
+          "settings": {
+            "collection": "mens-bunions",
+            "title": "Bunions",
+            "description": "Roomy toe boxes will save the day! These styles contain features that help alleviate symptoms. Discover our best men’s shoes for bunions.",
+            "cta_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "6ab0df06-13d6-4ab9-b0fa-15b16e397de0",
+        "3460e55b-fccb-4d9d-9960-f5e3c50969af",
+        "17bdc69d-7228-424f-aa87-f33502f71441",
+        "0e16f499-9e22-4deb-ac16-c69caf8c3878",
+        "68ccc833-ce2d-4211-90b5-315344425dc4"
+      ],
+      "settings": {}
+    },
+    "1631753371219576eb": {
+      "type": "three-column",
+      "blocks": {
+        "51f96020-5083-4c1e-b5d3-295e285c284c": {
+          "type": "column",
+          "settings": {
+            "icon": "smile",
+            "headline": "30 Day Happiness Guarantee",
+            "body": "<p>Give your new Hubbards a 30-day walk test. If you are not delighted by their comfort, we’ll refund your purchase.<\/p>"
+          }
+        },
+        "e697cc71-215d-4747-ab0a-a1ce7646d496": {
+          "type": "column",
+          "settings": {
+            "icon": "tradeup",
+            "headline": "Trade-Up",
+            "body": "<p>$50 off a new pair of Hubbards when you donate your old shoes –any brand– to someone in need.<\/p>"
+          }
+        },
+        "9a4cdd31-d337-4648-aec9-bcd04effcfe4": {
+          "type": "column",
+          "settings": {
+            "icon": "chat",
+            "headline": "Customer Service",
+            "body": "<p>Talk to a fit expert!<\/p><p>Monday-Friday 7am-5pm PST<\/p><p>(844) 482-4800<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "51f96020-5083-4c1e-b5d3-295e285c284c",
+        "e697cc71-215d-4747-ab0a-a1ce7646d496",
+        "9a4cdd31-d337-4648-aec9-bcd04effcfe4"
+      ],
+      "settings": {}
+    }
+  },
+  "order": [
+    "banner",
+    "clp-three-columns",
+    "main",
+    "1631753371219576eb"
+  ]
+}

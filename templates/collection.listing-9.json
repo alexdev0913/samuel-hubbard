@@ -1,0 +1,137 @@
+{
+  "sections": {
+    "banner": {
+      "type": "collection-list-banner",
+      "settings": {
+        "hero_image_split": false,
+        "image": "shopify:\/\/shop_images\/women_s_clearance.jpg",
+        "headline": "Women's Clearance Shoes",
+        "body": "These deals won't last long! Get a pair before they're gone."
+      }
+    },
+    "clp-three-columns": {
+      "type": "clp-three-columns",
+      "blocks": {
+        "7351f568-a0ef-4a68-8be1-2b9a5cb7f937": {
+          "type": "column",
+          "settings": {
+            "icon": "smile",
+            "headline": "Over 10K 5-Star Reviews",
+            "body": "<p>Happy feet means happy humans. Over 10,000 customers have left glowing reviews of our comfortable shoes.<\/p>"
+          }
+        },
+        "49bce819-961d-4481-a4e3-0a9e9e5fc7db": {
+          "type": "column",
+          "settings": {
+            "icon": "portugal",
+            "headline": "Handcrafted Women's Shoes",
+            "body": "<p>Samuel Hubbard shoes are designed in Mill Valley, California and handcrafted by shoe artisans in Portugal.<\/p>"
+          }
+        },
+        "581dc150-4b67-4012-a7f3-1f83ea73cd2c": {
+          "type": "column",
+          "settings": {
+            "icon": "comfort-system",
+            "headline": "Hubbard Comfort System",
+            "body": "<p>We took premium materials and added arch support, memory foam insoles, and a cushy cupsole to put a spring in your step.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "7351f568-a0ef-4a68-8be1-2b9a5cb7f937",
+        "49bce819-961d-4481-a4e3-0a9e9e5fc7db",
+        "581dc150-4b67-4012-a7f3-1f83ea73cd2c"
+      ],
+      "settings": {}
+    },
+    "main": {
+      "type": "main-list-collections",
+      "blocks": {
+        "00b90748-105b-42fc-a03a-adb801c1fd18": {
+          "type": "collection",
+          "settings": {
+            "collection": "womens-clearance-walking-casual",
+            "title": "Walking & Casual",
+            "description": "",
+            "cta_url": ""
+          }
+        },
+        "57eb1b9b-c68e-4820-a3c7-10a3bb0747d3": {
+          "type": "collection",
+          "settings": {
+            "collection": "womens-clearance-dress-shoes",
+            "title": "Dress",
+            "description": "",
+            "cta_url": ""
+          }
+        },
+        "c23f7999-9e8d-460a-9c0a-de5d0a2ceb54": {
+          "type": "collection",
+          "settings": {
+            "collection": "womens-clearance-boots",
+            "title": "Boots",
+            "description": "",
+            "cta_url": ""
+          }
+        },
+        "27f12571-ff0a-4518-ad4f-8570a16ca5a2": {
+          "type": "collection",
+          "settings": {
+            "collection": "womens-clearance-samsport",
+            "title": "SamSport",
+            "description": "",
+            "cta_url": "shopify:\/\/collections\/womens-clearance-samsport"
+          }
+        }
+      },
+      "block_order": [
+        "00b90748-105b-42fc-a03a-adb801c1fd18",
+        "57eb1b9b-c68e-4820-a3c7-10a3bb0747d3",
+        "c23f7999-9e8d-460a-9c0a-de5d0a2ceb54",
+        "27f12571-ff0a-4518-ad4f-8570a16ca5a2"
+      ],
+      "settings": {}
+    },
+    "1631753371219576eb": {
+      "type": "three-column",
+      "blocks": {
+        "7a32da5e-a089-4b62-9638-485dea0f04ae": {
+          "type": "column",
+          "settings": {
+            "icon": "smile",
+            "headline": "30 Day Happiness Guarantee",
+            "body": "<p>Give your new Hubbards a 30-day walk test. If you are not delighted by their comfort, we’ll refund your purchase.<\/p>"
+          }
+        },
+        "54e7eea1-009a-4c70-b6d1-3dbc30f1f776": {
+          "type": "column",
+          "settings": {
+            "icon": "tradeup",
+            "headline": "Trade-Up",
+            "body": "<p>$50 off a new pair of Hubbards when you donate your old shoes –any brand– to someone in need.<\/p>"
+          }
+        },
+        "194e20f1-d9b1-4c22-93e1-d5feed27d159": {
+          "type": "column",
+          "settings": {
+            "icon": "chat",
+            "headline": "Customer Service",
+            "body": "<p>Talk to a fit expert!<\/p><p>Monday-Friday 7am-5pm PST<\/p><p>(844) 482-4800<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "7a32da5e-a089-4b62-9638-485dea0f04ae",
+        "54e7eea1-009a-4c70-b6d1-3dbc30f1f776",
+        "194e20f1-d9b1-4c22-93e1-d5feed27d159"
+      ],
+      "settings": {}
+    }
+  },
+  "order": [
+    "banner",
+    "clp-three-columns",
+    "main",
+    "1631753371219576eb"
+  ]
+}

@@ -1,0 +1,57 @@
+{% layout none %}
+{% capture results %}
+	{% assign result_count = 0 %}
+	{% assign search_term = search.terms | downcase | escape %}
+	{% if search.types contains 'page' %}
+		{%- for i in collections -%}
+			{%- capture keywords -%}{{ i.title | downcase | escape }} {{ i.description | handleize | replace: '-' ,' ' | escape }}{%- endcapture -%}
+
+			{% if i.title contains '[PDP]' %}
+				{% continue %}
+			{% endif %}
+
+			{%- if keywords contains search_term -%}
+				{%- assign search_collections = search_collections 
+					| append: '###'
+					| append: i.handle -%}
+			{%- endif -%}
+		{%- endfor -%}
+		{% assign search_collections = search_collections | split: '###' %}
+
+		{% for i in search_collections %}
+			{% assign result_count = forloop.length %}
+			{
+				"title": {{ collections[i].title | json }},
+				"url": {{ collections[i].url | json }}
+			}
+			{% unless forloop.last %},{% endunless %}
+		{% endfor %}
+	{% else %}
+		{% for item in search.results %}
+			{% assign result_count = forloop.length %}
+			{
+				{% if item.url contains '/product' %}
+					"thumbnail": {{ item.featured_image.src | product_img_url: '600x' | json }},
+					"price": {{ item.price | money | remove:'.00' | json }},
+					"subtitle": {{ item.metafields.custom_fields.product_subtitle | json }},
+					{% if item.options[0] == 'Color' and item.variants.size > 1 %}
+						"variantsCount": {{ item.variants.size | json }},
+					{% endif %}
+
+				{% elsif item.url contains '/blogs' %}
+					"thumbnail": {{ item.image.src | img_url: '600x' | json }},
+					"excerpt": {{ item.excerpt_or_content | strip_html | truncatewords: 8 | json }},
+				{% endif %}
+				"title": {{ item.title | json }},
+				"url": {{ item.url | within: item.collections.last | json }}
+			}
+			{% unless forloop.last %},{% endunless %}
+		{% endfor %}
+
+	{% endif %}
+{% endcapture %}
+
+{
+	"results_count": {{ result_count }},
+	"results": [{{ results }}]
+}

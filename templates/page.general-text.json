@@ -1,0 +1,12 @@
+{
+  "sections": {
+    "main": {
+      "type": "general-text",
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "main"
+  ]
+}

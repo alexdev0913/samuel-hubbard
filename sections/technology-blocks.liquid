@@ -1,0 +1,265 @@
+{{ 'section-technology-blocks.css' | asset_url | stylesheet_tag }}
+
+{%- assign model_collection = product.title | handleize -%}
+
+<!-- {{ collections[model_collection] }} -->
+{% if collections[model_collection].metafields.custom_fields["colorway_technology"] != blank or 
+	product.metafields.custom_fields["technology"] != blank %}
+	<section class='technology-blocks' id='section-{{ section.id }}'>
+		<h2 class='h2'>
+			{% if product.metafields.custom_fields["technology_heading"] %}
+				{{ product.metafields.custom_fields["technology_heading"] }}
+			{% elsif collections[model_collection].metafields.custom_fields["colorway_technology_heading"] %}
+				{{ collections[model_collection].metafields.custom_fields["colorway_technology_heading"] }}
+			{% else %}
+				Technology
+			{% endif %}
+		</h2>
+
+		{%- for item in product.metafields.custom_fields["technology"] -%}
+			{%- capture alignment -%}
+					{%- cycle 'right', 'left' -%}
+			{%- endcapture -%}
+
+			{%- assign speed = forloop.index | minus: 1 | times: 0.15 | plus: -0.65 -%}
+			{%- assign imageURL = item["image"] -%}
+			{% assign item_image_fill = item['image_fill'] | times: 1 %}
+
+			<div class='technology-row product_row'>
+				{%- if alignment == 'right' -%}
+					<div class='row-image' position='{{ alignment }}'
+						{% if item_image_fill == 1 %}image-fill{% endif %}>
+						{% if item_image_fill == 1 %}
+							<span class="object-fit">
+								<img
+									class="lazyload"  
+									srcset="{{ imageURL }}"
+									sizes="100vw"
+									src="{{ imageURL }}"
+									loading="lazy"
+									alt="{{ item['headline'] | escape }}">
+							</span>
+						{% else %}
+							<img 
+								class="lazyload" 
+								srcset="{{ imageURL }}"
+								sizes="100vw"
+								src="{{ imageURL }}"
+								loading="lazy"
+								alt="{{ item['headline'] | escape }}"
+								speed='{{ speed }}'>
+						{% endif %}
+					</div>
+					<div class='row-content'>
+							<div class='content_container'>
+									<h5 class='h5'>{{ item['headline'] }}</h5>
+									<p class='body-tall'>{{ item['body'] }}</p>
+							</div>
+					</div>
+				{%- else -%}
+						<div class='row-content'>
+								<div class='content_container'>
+										<h5 class='h5'>{{ item['headline'] }}</h5>
+										<p class='body-tall'>{{ item['body'] }}</p>
+								</div>
+						</div>
+						<div class='row-image' position='{{ alignment }}'
+							{% if item_image_fill == 1 %}image-fill{% endif %}>
+							{% if item_image_fill == 1 %}
+								<span class="object-fit">
+									<img
+										class="lazyload"  
+										srcset="{{ imageURL }}"
+										sizes="100vw"
+										src="{{ imageURL }}"
+										loading="lazy"
+										alt="{{ item['headline'] | escape }}">
+								</span>
+							{% else %}
+								<img
+									class="lazyload"  
+									srcset="{{ imageURL }}"
+									sizes="100vw"
+									src="{{ imageURL }}"
+									loading="lazy"
+									alt="{{ item['headline'] | escape }}"
+									speed='{{ speed }}'>
+							{% endif %}
+						</div>
+				{%- endif -%}
+			</div>
+		{%- endfor -%}
+
+		{%- for item in collections[model_collection].metafields.custom_fields["colorway_technology"] -%}
+			{%- capture alignment -%}
+					{%- cycle 'right', 'left' -%}
+			{%- endcapture -%}
+
+			{%- assign speed = forloop.index | minus: 1 | times: 0.15 | plus: -0.45 -%}
+			{%- assign imageURL = item["image"] -%}
+			{% assign item_image_fill = item['image_fill'] | times: 1 %}
+
+			<div class='technology-row product_row'>
+					{%- if alignment == 'right' -%}
+							<div class='row-image' position='{{ alignment }}'
+								{% if item_image_fill == 1 %}image-fill{% endif %}>
+								{% if item_image_fill == 1 %}
+									<span class="object-fit">
+										<img
+											class="lazyload"  
+											srcset="{{ imageURL }}"
+											sizes="100vw"
+											src="{{ imageURL }}"
+											loading="lazy"
+											alt="{{ item['headline'] | escape }}">
+									</span>
+								{% else %}
+									<img
+										class="lazyload" 
+										srcset="{{ imageURL }}"
+										sizes="100vw"
+										src="{{ imageURL }}"
+										loading="lazy"
+										alt="{{ item['headline'] | escape }}"
+										speed='{{ speed }}'>
+								{% endif %}
+							</div>
+							<div class='row-content'>
+									<div class='content_container'>
+											<h5 class='h5'>{{ item['headline'] }}</h5>
+											<p class='body-tall'>{{ item['body'] }}</p>
+									</div>
+							</div>
+					{%- else -%}
+							<div class='row-content'>
+									<div class='content_container'>
+											<h5 class='h5'>{{ item['headline'] }}</h5>
+											<p class='body-tall'>{{ item['body'] }}</p>
+									</div>
+							</div>
+							<div class='row-image' position='{{ alignment }}'
+								{% if item_image_fill == 1 %}image-fill{% endif %}>
+								{% if item_image_fill == 1 %}
+									<span class="object-fit">
+										<img
+											class="lazyload" 
+											srcset="{{ imageURL }}"
+											sizes="100vw"
+											src="{{ imageURL }}"
+											loading="lazy"
+											alt="{{ item['headline'] | escape }}">
+									</span>
+								{% else %}
+									<img 
+										class="lazyload"
+										srcset="{{ imageURL }}"
+										sizes="100vw"
+										src="{{ imageURL }}"
+										loading="lazy"
+										alt="{{ item['headline'] | escape }}"
+										speed='{{ speed }}'>
+								{% endif %}
+							</div>
+					{%- endif -%}
+			</div>
+		{%- endfor -%}
+
+		{% comment %} {%- for block in section.blocks -%}
+				{%- capture alignment -%}
+						{%- cycle 'right', 'left' -%}
+				{%- endcapture -%}
+				{%- assign speed = forloop.index | minus: 1 | times: 0.15 | plus: -0.45 -%}
+				{%- if block.type == 'product_row' -%}
+						<div class='technology-row product_row'>
+								{%- if alignment == 'right' -%}
+										<div class='row-image' position='{{ alignment }}'>
+												<img srcset="{%- if block.settings.image.width >= 375 -%}{{ block.settings.image | img_url: '375x' }} 375w,{%- endif -%}
+												{%- if block.settings.image.width >= 750 -%}{{ block.settings.image | img_url: '750x' }} 750w,{%- endif -%}
+												{%- if block.settings.image.width >= 1100 -%}{{ block.settings.image | img_url: '1100x' }} 1100w,{%- endif -%}
+												{%- if block.settings.image.width >= 1500 -%}{{ block.settings.image | img_url: '1500x' }} 1500w,{%- endif -%}
+												{%- if block.settings.image.width >= 1780 -%}{{ block.settings.image | img_url: '1780x' }} 1780w,{%- endif -%}
+												{%- if block.settings.image.width >= 2000 -%}{{ block.settings.image | img_url: '2000x' }} 2000w,{%- endif -%}
+												{%- if block.settings.image.width >= 2800 -%}{{ block.settings.image | img_url: '2800x' }} 2800w{%- endif -%}"
+												sizes="100vw"
+												src="{{ block.settings.image | img_url: '750x' }}"
+												loading="lazy"
+												alt="{{ block.settings.image.alt | escape }}"
+												width="{{ block.settings.image.width }}"
+												height="{{ block.settings.image.width | divided_by: block.settings.image.aspect_ratio }}"
+												speed='{{ speed }}'
+												>
+										</div>
+										<div class='row-content'>
+												<div class='content_container'>
+														<h5 class='h5'>{{ block.settings.headline }}</h5>
+														<p class='body-tall'>{{ block.settings.body }}</p>
+												</div>
+										</div>
+								{%- else -%}
+										<div class='row-content'>
+												<div class='content_container'>
+														<h5 class='h5'>{{ block.settings.headline }}</h5>
+														<p class='body-tall'>{{ block.settings.body }}</p>
+												</div>
+										</div>
+										<div class='row-image' position='{{ alignment }}'>
+												<img srcset="{%- if block.settings.image.width >= 375 -%}{{ block.settings.image | img_url: '375x' }} 375w,{%- endif -%}
+												{%- if block.settings.image.width >= 750 -%}{{ block.settings.image | img_url: '750x' }} 750w,{%- endif -%}
+												{%- if block.settings.image.width >= 1100 -%}{{ block.settings.image | img_url: '1100x' }} 1100w,{%- endif -%}
+												{%- if block.settings.image.width >= 1500 -%}{{ block.settings.image | img_url: '1500x' }} 1500w,{%- endif -%}
+												{%- if block.settings.image.width >= 1780 -%}{{ block.settings.image | img_url: '1780x' }} 1780w,{%- endif -%}
+												{%- if block.settings.image.width >= 2000 -%}{{ block.settings.image | img_url: '2000x' }} 2000w,{%- endif -%}
+												{%- if block.settings.image.width >= 2800 -%}{{ block.settings.image | img_url: '2800x' }} 2800w{%- endif -%}"
+												sizes="100vw"
+												src="{{ block.settings.image | img_url: '750x' }}"
+												loading="lazy"
+												alt="{{ block.settings.image.alt | escape }}"
+												width="{{ block.settings.image.width }}"
+												height="{{ block.settings.image.width | divided_by: block.settings.image.aspect_ratio }}"
+												speed='{{ speed }}'
+												>
+										</div>
+								{%- endif -%}
+						</div>
+				{%- else -%}
+				
+				{%- endif -%}
+		{%- endfor -%} {% endcomment %}
+	</section>
+{% endif %}
+
+<script>
+	// var parallax = document.querySelectorAll('.row-image img');
+	// var section = document.getElementById('shopify-section-{{ section.id }}');
+
+	// if (window.innerWidth > 900) {
+	// 		window.addEventListener('scroll', function (event) {
+	// 				let viewportHeight = window.innerHeight;
+	// 				let scrollTop = window.scrollY;
+	
+	// 				let distance = scrollTop + viewportHeight - section.offsetTop;
+	// 				let percentage = distance / ((viewportHeight + section.offsetHeight) / 100);
+	// 				let percentSeen = Math.min(100, Math.max(0, percentage));
+
+	// 				parallax.forEach((e, i) => {
+	// 						let speed = e.getAttribute('speed');
+	// 						e.style.transform = 'translateY(' + (percentSeen * speed) + '%)';
+	// 				});
+					
+	// 		}, false);
+	// }
+</script>
+
+{% schema %}
+{
+  "name": "Technology Blocks",
+  "class": "spaced-section",
+  "settings": [],
+  "blocks": [],
+  "presets": [
+      {
+          "name": "Technology Blocks"
+      }
+  ]    
+}
+{% endschema %}

@@ -1,0 +1,165 @@
+<script>
+	redirectToRecover = false;
+</script>
+{{ 'login-register.css' | asset_url | stylesheet_tag }}
+
+<login-register class="login-page">
+  <div class="login-page__login-content type-spacing">
+    <h1 class="h2">Login</h1>
+    <h2 class="body-large login-page__description">{{ section.settings.login_message | default: 'Welcome Back!' }}</h2>
+
+    {%- form 'customer_login', novalidate: 'novalidate' -%}
+			{% if template.name == 'login' %}
+				{{ form.errors | default_errors }}
+			{% endif %}
+
+      <input
+        type="email"
+        class="login-page__input-field body-tall"
+        name="customer[email]"
+        placeholder="{{ 'customer.login_page.email' | t }}"
+      >
+
+      {%- if form.password_needed -%}
+        <password-input class="login-page__password-input-wrapper">
+          <input
+            type="password"
+            class="login-page__input-field body-tall"
+            name="customer[password]"
+            placeholder="{{ 'customer.login_page.password' | t }}"
+          >
+          <button type="button" class="login-page__show-password">{%- render 'icon-eye' -%}</button>
+        </password-input>
+      {%- endif -%}
+
+      <button class="login-page__submit-button utility" type="submit">
+        {{ 'customer.login_page.sign_in' | t }}
+      </button>
+
+      <div class="center">
+        <a class="utility login-page__forgot-password-button" href="#">
+          {{ 'customer.login_page.forgot_password' | t }}
+        </a>
+      </div>
+
+      <div class="login-page__divider-with-text body-small">or</div>
+
+			<input type="hidden" name="checkout_url" value="{{ shop.url | append: '/account' }}" />
+    {%- endform -%}
+  </div>
+
+  <hr class="login-page__divider">
+  <div class="login-page__register-content type-spacing">
+    <h1 class="h2">Create an account</h1>
+    <h2 class="body-large login-page__description">{{ section.settings.register_message 
+			| default: 'Create an account to access your profile info, order history, and more.' }}</h2>
+
+		<div class="errors" style="display: none;"></div>
+
+    {%- form 'create_customer' -%}
+			{% if template.name == 'register' %}
+				{{ form.errors | default_errors }}
+			{% endif %}
+
+      <div class="login-page__name-field">
+        <input
+          type="text"
+          class="login-page__input-field body-tall"
+          name="customer[first_name]"
+          placeholder="{{ 'customer.register.first_name' | t }}"
+        >
+        <input
+          type="text"
+          class="login-page__input-field body-tall"
+          name="customer[last_name]"
+          placeholder="{{ 'customer.register.last_name' | t }}"
+        >
+      </div>
+      <input
+        type="text"
+        class="login-page__input-field body-tall"
+        name="customer[email]"
+        placeholder="{{ 'customer.register.email' | t }}"
+      >
+      <password-input class="login-page__password-input-wrapper">
+        <input
+          type="password"
+          class="login-page__input-field body-tall"
+          name="customer[password]"
+          placeholder="{{ 'customer.login_page.password' | t }}"
+        >
+        <button type="button" class="login-page__show-password">{%- render 'icon-eye' -%}</button>
+      </password-input>
+
+      <input type="checkbox" id="subscribe-newsletter" name="customer[subscribe]" checked>
+      <label for="subscribe-newsletter" class="body-small"> Subscribe to our Newsletter</label>
+
+			<input type="hidden" name="return_to" value="/account">
+      <button class="login-page__submit-button utility" type="submit">
+        {{ 'customer.register.submit' | t }}
+      </button>
+
+      <p class="login-page__notify-message">
+        By completing this form you are agreeing with the below policies and are signing up to receive our marketing messages and can unsubscribe at any time.
+      </p>
+    {%- endform -%}
+  </div>
+
+  <div class="reset-password-form">
+    <h1 class="h2">Reset Password</h1>
+    <h2 class="body-large login-page__description">Enter your email below and we’ll send you a reset link</h2>
+    {%- form 'recover_customer_password' -%}
+			{% if form.posted_successfully? %}
+				<p class="form-message">We've sent you an email with a link to update your password.</p>
+				<script>
+					redirectToRecover = true;
+				</script>
+			{% endif %}
+
+			{%- if form.errors -%}
+        <p class="form-message">
+        	{% if form.errors.messages['form'] contains 'No account found with that email.' %}
+						No account found with that email. If you had an account prior to January 2022, please create a new account. Your order history will be available in your new account.
+					{% endif %}
+        </p>
+				<script>
+					redirectToRecover = true;
+				</script>
+      {%- endif -%}
+
+      <input
+        type="email"
+        value=""
+        name="email"
+        id="RecoverEmail"
+        placeholder="Email"
+        autocapitalize="off"
+        class="login-page__input-field"
+      >
+      <button class="login-page__submit-button utility" type="submit">Send a link</button>     
+    {%- endform -%}
+    <button class="login-page__cancel-reset-button utility">Cancel</button>
+  </div>
+</login-register>
+
+<script src="{{ 'login-register.js' | asset_url }}" defer="defer"></script>
+
+{% schema %}
+{
+	"name": "Account gate",
+	"settings": [
+		{
+			"type": "textarea",
+			"id": "login_message",
+			"label": "Login message",
+			"default": "Welcome back!"
+		},
+		{
+			"type": "textarea",
+			"id": "register_message",
+			"label": "Register message",
+			"default": "Create an account to access your profile info, order history, and more."
+		}
+	]
+}
+{% endschema %}

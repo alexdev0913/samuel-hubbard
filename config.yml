@@ -1,0 +1,18 @@
+development:
+  password: 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
+  theme_id: "131390439611"
+  store: samuel-hubbard-shoe-company.myshopify.com
+  ignore_files:
+    - config/settings_data.json
+production:
+  password: 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
+  theme_id: "129793949883"
+  store: samuel-hubbard-shoe-company.myshopify.com
+  ignore_files:
+    - config/settings_data.json
+boost:
+  password: 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
+  theme_id: "130472935611"
+  store: samuel-hubbard-shoe-company.myshopify.com
+  ignore_files:
+    - config/settings_data.json

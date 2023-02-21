@@ -1,0 +1,130 @@
+{
+  "sections": {
+    "banner": {
+      "type": "collection-list-banner",
+      "settings": {
+        "hero_image_split": true,
+        "image": "shopify:\/\/shop_images\/dreams_d4585f48-ccdf-419a-a3d5-5ef0d805d95b.jpg",
+        "headline": "Do You Dream In Hubbard?",
+        "body": "The Dreams Collection combines the durability and softness of 100% merino wool with the playfulness of bright all-natural dyes."
+      }
+    },
+    "clp-three-columns": {
+      "type": "clp-three-columns",
+      "blocks": {
+        "4663f52d-466e-496c-a9b1-704a4f6da4cf": {
+          "type": "column",
+          "settings": {
+            "icon": "eco",
+            "headline": "OEKO-TEX® Certified",
+            "body": "<p>These eco-friendly shoes are OEKO-TEX® certified to be free of harmful chemicals and safe for human use.<\/p>"
+          }
+        },
+        "57415a3c-cb15-47c4-82d7-4c59b3a97a4c": {
+          "type": "column",
+          "settings": {
+            "icon": "wool",
+            "headline": "100% Merino Wool",
+            "body": "<p>Made with all-natural, 100% Merino wool felt, using only plant-based dyes, and never treated with harmful chemicals like bleach.<\/p>"
+          }
+        },
+        "f31d4a80-be04-486f-9efb-0ce498e496ea": {
+          "type": "column",
+          "settings": {
+            "icon": "portugal",
+            "headline": "Handcrafted Women's Shoes",
+            "body": "<p>Samuel Hubbard shoes are designed in Mill Valley, California and handcrafted by shoe artisans in Portugal.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "4663f52d-466e-496c-a9b1-704a4f6da4cf",
+        "57415a3c-cb15-47c4-82d7-4c59b3a97a4c",
+        "f31d4a80-be04-486f-9efb-0ce498e496ea"
+      ],
+      "settings": {
+      }
+    },
+    "main": {
+      "type": "main-list-collections",
+      "blocks": {
+        "3d6b7f74-6ccd-4981-b8fe-c56bc1244de3": {
+          "type": "collection",
+          "settings": {
+            "collection": "womens-hubbard-dreams-clog",
+            "title": "Clog",
+            "description": "With contrasting colored linings Hubbard Dreams Clogs will brighten up your at-home look as well as out-of-home style.",
+            "cta_url": "shopify:\/\/products\/hubbard-dreams-clog-red"
+          }
+        },
+        "6152f229-9f3b-449f-b89a-496348d67f84": {
+          "type": "collection",
+          "settings": {
+            "collection": "womens-dreams-adjustable-clog",
+            "title": "Adjustable Clog",
+            "description": "Live the dream with colorful style and adjustable straps that make for the perfect fit.",
+            "cta_url": "shopify:\/\/products\/hubbard-dreams-adjustable-clog-brown-heather"
+          }
+        },
+        "6c7a7ea6-7775-48bc-aed0-e1754b10f289": {
+          "type": "collection",
+          "settings": {
+            "collection": "womens-hubbard-dreams-spring-back",
+            "title": "Spring Back",
+            "description": "Light, fun, thoughtfully designed, Hubbard Dreams Spring Back shoes are the perfect combination of style and comfort.",
+            "cta_url": "shopify:\/\/products\/hubbard-dreams-spring-back-graphite-heather"
+          }
+        }
+      },
+      "block_order": [
+        "3d6b7f74-6ccd-4981-b8fe-c56bc1244de3",
+        "6152f229-9f3b-449f-b89a-496348d67f84",
+        "6c7a7ea6-7775-48bc-aed0-e1754b10f289"
+      ],
+      "settings": {
+      }
+    },
+    "1631753371219576eb": {
+      "type": "three-column",
+      "blocks": {
+        "1f4ffcbf-0b3a-4aaf-8a46-5f1e89b060e6": {
+          "type": "column",
+          "settings": {
+            "icon": "smile",
+            "headline": "30 Day Happiness Guarantee",
+            "body": "<p>Give your new Hubbards a 30-day walk test. If you are not delighted by their comfort, we’ll refund your purchase.<\/p>"
+          }
+        },
+        "877541ae-5dea-483b-9713-3a5e3d10c994": {
+          "type": "column",
+          "settings": {
+            "icon": "tradeup",
+            "headline": "Trade-Up",
+            "body": "<p>$50 off a new pair of Hubbards when you donate your old shoes –any brand– to someone in need.<\/p>"
+          }
+        },
+        "3bb2ae36-48d8-4a1c-8dee-f850be45ab9b": {
+          "type": "column",
+          "settings": {
+            "icon": "chat",
+            "headline": "Customer Service",
+            "body": "<p>Talk to a fit expert!<\/p><p>Monday-Friday 7am-5pm PST<\/p><p>(844) 482-4800<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1f4ffcbf-0b3a-4aaf-8a46-5f1e89b060e6",
+        "877541ae-5dea-483b-9713-3a5e3d10c994",
+        "3bb2ae36-48d8-4a1c-8dee-f850be45ab9b"
+      ],
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "banner",
+    "clp-three-columns",
+    "main",
+    "1631753371219576eb"
+  ]
+}

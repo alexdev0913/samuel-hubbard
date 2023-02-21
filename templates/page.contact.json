@@ -1,0 +1,90 @@
+{
+  "sections": {
+    "form": {
+      "type": "contact-form",
+      "blocks": {
+        "50b580b5-b962-40de-8896-fabed3251afc": {
+          "type": "topic",
+          "settings": {
+            "topic": "Placing an order"
+          }
+        },
+        "3b54ffa8-5ce8-434e-bd27-278eb04cac0a": {
+          "type": "topic",
+          "settings": {
+            "topic": "Shipping and payment"
+          }
+        },
+        "5290bc00-dfba-436a-aa57-bc6797f89a3b": {
+          "type": "topic",
+          "settings": {
+            "topic": "Returns and exchanges"
+          }
+        }
+      },
+      "block_order": [
+        "50b580b5-b962-40de-8896-fabed3251afc",
+        "3b54ffa8-5ce8-434e-bd27-278eb04cac0a",
+        "5290bc00-dfba-436a-aa57-bc6797f89a3b"
+      ],
+      "settings": {
+        "heading": "we love our customers",
+        "description": "We have an old-fashioned approach: We actually answer the phone. Real people – with deep expertise – ready to answer your questions.",
+        "faq_prompt": "",
+        "support_hours": "<p>Monday - Friday<\/p><p>7:00am - 5:00pm Pacific Time<br\/>Excluding Holidays<\/p>",
+        "call_us_message": "Our goal is to make friends, one pair at a time. Call us to speak with our award-winning team of fit specialists.",
+        "phone_number": "(844) 482-4800",
+        "faq_page_url": ""
+      }
+    },
+    "1633034051e5802534": {
+      "type": "customer-service",
+      "blocks": {
+        "e8c33e00-3791-4ef8-8c1b-a9bb4a147846": {
+          "type": "card",
+          "settings": {
+            "icon": "smile",
+            "headline": "30 Day Happiness Guarantee",
+            "body": "<p>Our priority is your happiness. So feel free to give your new Hubbards a 30 day walktest. If you’re not delighted by their comfort, we’ll refund your purchase. It’s that simple.<\/p>",
+            "url": "",
+            "url_label": "Learn More"
+          }
+        },
+        "f91593c3-f84d-4204-84f9-9cbdcdd510db": {
+          "type": "card",
+          "settings": {
+            "icon": "shoe",
+            "headline": "Trade-Up Program",
+            "body": "<p> $50 off a new pair of Hubbards when you donate your old shoes – any brand – to someone in need.<\/p>",
+            "url": "shopify:\/\/pages\/trade-up",
+            "url_label": "Trade Up"
+          }
+        },
+        "97dbed04-f6ae-4472-8298-1ed9a0f745f0": {
+          "type": "card",
+          "settings": {
+            "icon": "chat",
+            "headline": "Customer Service",
+            "body": "<p>Monday - Friday from 7am - 5pm PT<br\/>(844) 482-4800<\/p>",
+            "url": "shopify:\/\/pages\/contact",
+            "url_label": "Contact Us"
+          }
+        }
+      },
+      "block_order": [
+        "e8c33e00-3791-4ef8-8c1b-a9bb4a147846",
+        "f91593c3-f84d-4204-84f9-9cbdcdd510db",
+        "97dbed04-f6ae-4472-8298-1ed9a0f745f0"
+      ],
+      "settings": {
+        "headline": "",
+        "subhead": "",
+        "body": ""
+      }
+    }
+  },
+  "order": [
+    "form",
+    "1633034051e5802534"
+  ]
+}

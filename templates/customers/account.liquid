@@ -1,0 +1,93 @@
+{{ 'account.css' | asset_url | stylesheet_tag }}
+
+<account-page class="account">
+  {% render 'account-sidebar', active: 'dashboard' %}
+
+  <div class="account__content">
+    <h1 class="h2 account__content-title">Welcome back, {{ customer.first_name }}!</h1>
+
+    {% render 'account-mobile-nav' %}
+
+    {% if customer.orders.size > 0 %}
+      <h2 class="h4">Order history</h2>
+      <table role="table" class="order-history">
+        <thead role="rowgroup">
+          <tr role="row">
+            <th class="utility" id="ColumnOrder" scope="col" role="columnheader">{{ 'customer.orders.order_number' | t }}</th>
+            <th class="utility" id="ColumnDate" scope="col" role="columnheader">{{ 'customer.orders.date' | t }}</th>
+            <th class="utility" id="ColumnPayment" scope="col" role="columnheader">{{ 'customer.orders.payment_status' | t }}</th>
+            <th class="utility" id="ColumnFulfillment" scope="col" role="columnheader">{{ 'customer.orders.fulfillment_status' | t }}</th>
+            <th class="utility" id="ColumnTotal" scope="col" role="columnheader">{{ 'customer.orders.total' | t }}</th>
+          </tr>
+        </thead>
+        <tbody role="rowgroup">
+          {%- for order in customer.orders -%}
+            <tr role="row">
+              <td
+                id="RowOrder"
+                role="cell"
+                headers="ColumnOrder"
+                data-label="{{ 'customer.orders.order_number' | t }}"
+              >
+                <a class="body-medium order-number-col" href="{{ order.customer_url }}" aria-label="{{ 'customer.orders.order_number_link' | t: number: order.name }}">
+                  {{ order.name }}
+                </a>
+              </td>
+              <td class="body-small" headers="RowOrder ColumnDate" role="cell" data-label="{{ 'customer.orders.date' | t }}">
+                {{ order.created_at | date: "%m/%d/%Y" }}
+              </td>
+              <td class="body-small" headers="RowOrder ColumnPayment" role="cell" data-label="{{ 'customer.orders.payment_status' | t }}">
+                {{ order.financial_status_label }}
+              </td>
+              <td class="body-small" headers="RowOrder ColumnFulfillment" role="cell" data-label="{{ 'customer.orders.fulfillment_status' | t }}">
+                {{ order.fulfillment_status_label }}
+              </td>
+              <td class="body-small" headers="RowOrder ColumnTotal" role="cell" data-label="{{ 'customer.orders.total' | t }}">
+                {{ order.total_price | money }}
+              </td>
+            </tr>
+          {%- endfor -%}
+        </tbody>
+      </table>
+
+      <div class="mobile-order-list">
+        {% for order in customer.orders %}
+          <div class="mobile-order-item">
+            <div class="mobile-order-item__header">
+              <div class="body-medium"> {{ order.name }} </div>
+              <div class="utility-thin">PLACED: {{ order.created_at | date: "%m/%d/%Y" }}</div>
+            </div>
+            <div class="mobile-order-item__content">
+              <div class="mobile-order-item__content-col">
+                <div class="utility-thin">{{ 'customer.orders.total' | t }}</div>
+                <div class="body-medium">{{ order.total_price | money }}</div>
+              </div>
+              <div class="mobile-order-item__content-col">
+                <div class="utility-thin">{{ 'customer.orders.payment_status' | t }}</div>
+                <div class="body-medium">{{ order.financial_status_label }}</div>
+              </div>
+              <div class="mobile-order-item__content-col">
+                <div class="utility-thin">{{ 'customer.orders.fulfillment_status' | t }}</div>
+                <div class="body-medium">{{ order.fulfillment_status_label }}</div>
+              </div>
+            </div>
+            <a href="{{ order.customer_url }}" class="mobile-order-item__cta utility">View Details</a>
+          </div>
+        {% endfor %}
+      </div>
+    {% else %}
+      <p class="account__no-order-message">{{ 'customer.orders.none' | t }}</p>      
+    {% endif %}
+  </div>
+
+  <div class="account__details">
+    <h1 class="h4 account__subtitle">Account details</h1>
+    <div class="account__addresses">{{ customer.default_address | format_address }}</div>
+    <a class="account__address-cta utility" href="{{ routes.account_addresses_url }}">
+      {{ 'customer.account.view_addresses' | t }} ({{ customer.addresses_count }})
+    </a>
+  </div>
+</account-page>
+
+{%- section 'component-background-logo' -%}
+{%- section 'three-column' -%}

@@ -1,0 +1,130 @@
+{
+  "sections": {
+    "banner": {
+      "type": "collection-list-banner",
+      "settings": {
+        "hero_image_split": false,
+        "image": "shopify:\/\/shop_images\/mens_slipons_7c033e9d-0aa5-48bf-8522-df16a5897908.jpg",
+        "headline": "Men's Slip-On Shoes",
+        "body": "Designed for additional convenience and extraordinary comfort. Durable, fashionable, and available in multiple styles."
+      }
+    },
+    "clp-three-columns": {
+      "type": "clp-three-columns",
+      "blocks": {
+        "934f6bb2-1b3b-4647-a91a-f2ef3c253264": {
+          "type": "column",
+          "settings": {
+            "icon": "leather",
+            "headline": "Genuine Leather",
+            "body": "<p>We use only the finest materials in our craft. No detail is too small. We obsess over every batch of leather, every lining, and every stitch.<\/p>"
+          }
+        },
+        "43bfd83a-0351-4c9c-aafe-4b81d2891678": {
+          "type": "column",
+          "settings": {
+            "icon": "portugal",
+            "headline": "Handcrafted Men's Shoes",
+            "body": "<p>Samuel Hubbard shoes are designed in Mill Valley, California and handcrafted by shoe artisans in Portugal.<\/p>"
+          }
+        },
+        "179757e1-c594-4556-99fd-5e11ae46beb8": {
+          "type": "column",
+          "settings": {
+            "icon": "comfort-system",
+            "headline": "Hubbard Comfort System",
+            "body": "<p>We took premium materials and added arch support, memory foam insoles, and a cushy cupsole to put a spring in your step.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "934f6bb2-1b3b-4647-a91a-f2ef3c253264",
+        "43bfd83a-0351-4c9c-aafe-4b81d2891678",
+        "179757e1-c594-4556-99fd-5e11ae46beb8"
+      ],
+      "settings": {
+      }
+    },
+    "main": {
+      "type": "main-list-collections",
+      "blocks": {
+        "3b08a76c-a88d-4f01-859b-9d685b9aa0e5": {
+          "type": "collection",
+          "settings": {
+            "collection": "mens-casual-slip-on",
+            "title": "",
+            "description": "Great for travel, easy to slip on when you’re in a rush, and well-suited for long hours at work.",
+            "cta_url": ""
+          }
+        },
+        "8f8e72fa-6005-4231-ac31-a2a84b9e1b9a": {
+          "type": "collection",
+          "settings": {
+            "collection": "mens-loafers-and-slip-ons",
+            "title": "",
+            "description": "Experience craftsmanship at its finest with men’s dress loafers engineered for comfort and style.",
+            "cta_url": ""
+          }
+        },
+        "f38a8750-9f9b-4b5f-9b40-899dcfba52c1": {
+          "type": "collection",
+          "settings": {
+            "collection": "mens-slippers",
+            "title": "",
+            "description": "Introducing Slippers that aren't afraid to go outside, with gentle arch support and rubber soles for comfort and traction on all surfaces.",
+            "cta_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "3b08a76c-a88d-4f01-859b-9d685b9aa0e5",
+        "8f8e72fa-6005-4231-ac31-a2a84b9e1b9a",
+        "f38a8750-9f9b-4b5f-9b40-899dcfba52c1"
+      ],
+      "settings": {
+      }
+    },
+    "1631753371219576eb": {
+      "type": "three-column",
+      "blocks": {
+        "2e2020d6-d48f-4ff5-8fcc-6b3b23de3824": {
+          "type": "column",
+          "settings": {
+            "icon": "smile",
+            "headline": "30 Day Happiness Guarantee",
+            "body": "<p>Give your new Hubbards a 30-day walk test. If you are not delighted by their comfort, we’ll refund your purchase.<\/p>"
+          }
+        },
+        "2c6049d4-1123-4187-8ca7-972800043531": {
+          "type": "column",
+          "settings": {
+            "icon": "tradeup",
+            "headline": "Trade-Up",
+            "body": "<p>$50 off a new pair of Hubbards when you donate your old shoes –any brand– to someone in need.<\/p>"
+          }
+        },
+        "41a4d7b3-f82c-49ad-ae96-302524213475": {
+          "type": "column",
+          "settings": {
+            "icon": "chat",
+            "headline": "Customer Service",
+            "body": "<p>Talk to a fit expert!<\/p><p>Monday-Friday 7am-5pm PST<\/p><p>(844) 482-4800<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "2e2020d6-d48f-4ff5-8fcc-6b3b23de3824",
+        "2c6049d4-1123-4187-8ca7-972800043531",
+        "41a4d7b3-f82c-49ad-ae96-302524213475"
+      ],
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "banner",
+    "clp-three-columns",
+    "main",
+    "1631753371219576eb"
+  ]
+}

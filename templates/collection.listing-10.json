@@ -1,0 +1,26 @@
+{
+  "sections": {
+    "banner": {
+      "type": "collection-list-banner",
+      "settings": {}
+    },
+    "clp-three-columns": {
+      "type": "clp-three-columns",
+      "settings": {}
+    },
+    "main": {
+      "type": "main-list-collections",
+      "settings": {}
+    },
+    "1631753371219576eb": {
+      "type": "three-column",
+      "settings": {}
+    }
+  },
+  "order": [
+    "banner",
+    "clp-three-columns",
+    "main",
+    "1631753371219576eb"
+  ]
+}

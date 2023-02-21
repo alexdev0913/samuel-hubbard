@@ -1,0 +1,52 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {}
+    },
+    "backgroundLogo": {
+      "type": "component-background-logo",
+      "settings": {}
+    },
+    "threeColumn": {
+      "type": "three-column",
+      "blocks": {
+        "bab69152-f8d7-4094-bd21-2380747419cb": {
+          "type": "column",
+          "settings": {
+            "icon": "smile",
+            "headline": "30 days happiness guarantee",
+            "body": "<p>Our removable memory foam insoles are coveted by discerning feet around the world.<\/p>"
+          }
+        },
+        "4769e82d-492c-4492-b357-410f882b4793": {
+          "type": "column",
+          "settings": {
+            "icon": "tradeup",
+            "headline": "Trade-Up Program",
+            "body": "<p> $50 off a new pair of Hubbards when you donate your old shoes –any brand– to someone in need.<\/p>"
+          }
+        },
+        "167f330b-2ef7-4c17-bfdc-c990884e1112": {
+          "type": "column",
+          "settings": {
+            "icon": "chat",
+            "headline": "Customer Support",
+            "body": "<p>Monday-Friday 7am-5pm PST <br\/>(844) 482-4800 or Chat<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "bab69152-f8d7-4094-bd21-2380747419cb",
+        "4769e82d-492c-4492-b357-410f882b4793",
+        "167f330b-2ef7-4c17-bfdc-c990884e1112"
+      ],
+      "settings": {}
+    }
+  },
+  "order": [
+    "main",
+    "backgroundLogo",
+    "threeColumn"
+  ]
+}

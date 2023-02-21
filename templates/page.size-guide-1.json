@@ -1,0 +1,25 @@
+{
+  "sections": {
+    "main": {
+      "type": "product-sizing-popup",
+      "settings": {
+        "tag": "",
+        "heading": "Men's Size Guide",
+        "subheading": "European VS American Size Scale",
+        "paragraph": "Samuel Hubbard shoes are made using the American size scale. If your current footwear is are marked in European sizes, you can use our size conversion chart below to find your American size.",
+        "width_sizing_1": "Medium: D Width",
+        "width_sizing_2": "Wide: EE Width",
+        "width_sizing_3": "Extra Wide: 4E Width",
+        "width_sizing_4": "",
+        "width_sizing_5": "",
+        "width_sizing_6": "",
+        "foot_measurement_tool": "https:\/\/cdn.shopify.com\/s\/files\/1\/0542\/1681\/8875\/files\/s-hubbard_mens_size_guide_2.pdf?v=1634853081",
+        "foot_measurement_tool_details": "Print at 100% ACTUAL SIZE. Do not use “Fit to Page\".",
+        "size_chart_html": "<table>\n\t\t\t\t\t<tbody>\n\t\t\t\t\t<tr>\n\t\t\t\t\t\t<td>US<\/td>\n\t\t\t\t\t\t<td>7<\/td>\n\t\t\t\t\t\t<td>7.5<\/td>\n\t\t\t\t\t\t<td>8<\/td>\n\t\t\t\t\t\t<td>8.5<\/td>\n\t\t\t\t\t\t<td>9<\/td>\n\t\t\t\t\t\t<td>9.5<\/td>\n\t\t\t\t\t\t<td>10<\/td>\n\t\t\t\t\t\t<td>10.5<\/td>\n\t\t\t\t\t\t<td>11<\/td>\n\t\t\t\t\t\t<td>11.5<\/td>\n\t\t\t\t\t\t<td>12<\/td>\n\t\t\t\t\t\t<td>12.5<\/td>\n\t\t\t\t\t\t<td>13<\/td>\n\t\t\t\t\t\t<td>14<\/td>\n\t\t\t\t\t\t<td>15<\/td>\n\t\t\t\t\t\t<td>16<\/td>\n\t\t\t\t\t\t<td>17<\/td>\n\t\t\t\t\t<\/tr>\n\t\t\t\t\t<\/tbody>\n\t\t\t\t<\/table>\n\n<table>\n\t\t\t\t\t<tbody>\n\t\t\t\t\t<tr>\n\t\t\t\t\t\t<td>EU<\/td>\n\t\t\t\t\t\t<td>40<\/td>\n\t\t\t\t\t\t<td>41<\/td>\n\t\t\t\t\t\t<td>42<\/td>\n\t\t\t\t\t\t<td>43<\/td>\n\t\t\t\t\t\t<td>44<\/td>\n\t\t\t\t\t\t<td>45<\/td>\n\t\t\t\t\t\t<td>46<\/td>\n\t\t\t\t\t\t<td>47<\/td>\n\t\t\t\t\t\t<td>48<\/td>\n\t\t\t\t\t\t<td>49<\/td>\n\t\t\t\t\t\t<td>50<\/td>\n\t\t\t\t\t\t<td>51<\/td>\n\t\t\t\t\t\t<td>52<\/td>\n\t\t\t\t\t\t<td>53<\/td>\n\t\t\t\t\t\t<td>54<\/td>\n\t\t\t\t\t\t<td>55<\/td>\n\t\t\t\t\t\t<td>56<\/td>\n\t\t\t\t\t<\/tr>\n\t\t\t\t\t<\/tbody>\n\t\t\t\t<\/table>"
+      }
+    }
+  },
+  "order": [
+    "main"
+  ]
+}

@@ -1,0 +1,289 @@
+{
+  "sections": {
+    "careers-intro": {
+      "type": "careers-intro",
+      "blocks": {
+        "7b0e49e1-6c9b-477e-9236-a6b9c7b6846c": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/team.jpg"
+          }
+        },
+        "3dbd2940-e6f4-4c9f-ad68-5112a6fcaea9": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/careers_1_copy_8.jpg"
+          }
+        },
+        "e0efc75a-0363-4984-9f04-9e7c354f096a": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/careers_1_copy_2.jpg"
+          }
+        },
+        "e1c83abb-8d62-4d24-83bd-60a28f08bdaf": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/careers_1_copy_3.jpg"
+          }
+        },
+        "a3f1af86-a2bb-4fe7-8162-347e3566697e": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/careers_1_copy.jpg"
+          }
+        },
+        "1db6382a-1d20-4aef-a360-d8a46ee62ea7": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/careers_1_copy_6.jpg"
+          }
+        },
+        "3b1d1be3-def3-4cb2-88f5-2b0ec1953e36": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/careers_1_copy_9.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "7b0e49e1-6c9b-477e-9236-a6b9c7b6846c",
+        "3dbd2940-e6f4-4c9f-ad68-5112a6fcaea9",
+        "e0efc75a-0363-4984-9f04-9e7c354f096a",
+        "e1c83abb-8d62-4d24-83bd-60a28f08bdaf",
+        "a3f1af86-a2bb-4fe7-8162-347e3566697e",
+        "1db6382a-1d20-4aef-a360-d8a46ee62ea7",
+        "3b1d1be3-def3-4cb2-88f5-2b0ec1953e36"
+      ],
+      "settings": {
+        "heading": "Meet the Team",
+        "subheading": "We listen to feet",
+        "paragraph": "Reinventing shoes requires a diverse skillset. The most important of these skills is listening. When we listen to your feet, we understand the kinds of shoes that are desired and the styles that beg for reinvention. It's our mission to make shoes that give comfort to even the most demanding feet. Because when your feet are happier, the world is a much happier place."
+      }
+    },
+    "careers-overview": {
+      "type": "careers-overview",
+      "disabled": true,
+      "settings": {
+        "heading": "Overview",
+        "paragraphs": "<p>The shoes begin to take shape in Portugal and Brazil. Our skilled artisan partners bring Hubbards to life. We combine technology and scientific curiosity with generations of expertise.<\/p><p>No detail is too small. We obsess over every batch of leather, every lining, and every stitch.<\/p>"
+      }
+    },
+    "careers-video": {
+      "type": "component-video-full",
+      "disabled": true,
+      "settings": {
+        "vimeo_embed_code": "<iframe src=\"https:\/\/player.vimeo.com\/video\/619427082?h=817d988d3f\" width=\"640\" height=\"360\" frameborder=\"0\" allow=\"autoplay; fullscreen; picture-in-picture\" allowfullscreen><\/iframe>\n<p><a href=\"https:\/\/vimeo.com\/619427082\">Spotify All Ears On You<\/a> from <a href=\"https:\/\/vimeo.com\/agjnyc\">Amber Grace Johnson<\/a> on <a href=\"https:\/\/vimeo.com\">Vimeo<\/a>.<\/p>",
+        "overlay": 0,
+        "thumbnail": "shopify:\/\/shop_images\/video-thumbnail.jpg",
+        "heading": "Uncompromising Excellence",
+        "subheading": ""
+      }
+    },
+    "careers-team": {
+      "type": "careers-team",
+      "disabled": true,
+      "blocks": {
+        "443d42ac-8202-4de5-956a-b8345a8ff69b": {
+          "type": "member",
+          "settings": {
+            "illustration": "shopify:\/\/shop_images\/illo.png",
+            "name": "Bruce Katz",
+            "title": "Founder & CEO",
+            "favorite": "blue-skies-saddle-bag-tan"
+          }
+        },
+        "3d7c625a-80a4-4d35-bfeb-0c4493306e7e": {
+          "type": "member",
+          "settings": {
+            "illustration": "shopify:\/\/shop_images\/illo.png",
+            "name": "Bruce Katz",
+            "title": "Founder & CEO",
+            "favorite": "24-seven-2-0-black-leather"
+          }
+        },
+        "8aff6e8e-b859-4cbf-932d-e6d4274fd710": {
+          "type": "member",
+          "settings": {
+            "illustration": "shopify:\/\/shop_images\/illo.png",
+            "name": "Bruce Katz",
+            "title": "Founder & CEO",
+            "favorite": "24-seven-2-0-black-leather"
+          }
+        },
+        "5ffdcd79-2790-43e9-8e0f-cc1ad53a5a2d": {
+          "type": "member",
+          "settings": {
+            "illustration": "shopify:\/\/shop_images\/illo.png",
+            "name": "Bruce Katz",
+            "title": "Founder & CEO",
+            "favorite": "24-seven-black-suede"
+          }
+        },
+        "88eabac9-4533-490a-90c1-b8de8458a023": {
+          "type": "member",
+          "settings": {
+            "illustration": "shopify:\/\/shop_images\/illo.png",
+            "name": "Bruce Katz",
+            "title": "Founder & CEO",
+            "favorite": "24-seven-whiskey-tan"
+          }
+        },
+        "e9d59b0c-522b-4769-9a6a-a6302d40fb77": {
+          "type": "member",
+          "settings": {
+            "illustration": "shopify:\/\/shop_images\/illo.png",
+            "name": "Bruce Katz",
+            "title": "Founder & CEO",
+            "favorite": "24-seven-2-0-black-leather"
+          }
+        },
+        "e7b1c5fa-7c20-42b6-aa1b-fa3fa6316427": {
+          "type": "member",
+          "settings": {
+            "illustration": "shopify:\/\/shop_images\/illo.png",
+            "name": "Bruce Katz",
+            "title": "Founder & CEO",
+            "favorite": "24-seven-2-0-dark-brown-leather"
+          }
+        },
+        "22cf682c-6831-4d0a-9a02-c4848b69262d": {
+          "type": "member",
+          "settings": {
+            "illustration": "shopify:\/\/shop_images\/illo.png",
+            "name": "Bruce Katz",
+            "title": "Founder & CEO",
+            "favorite": "24-seven-2-0-dark-brown-leather"
+          }
+        }
+      },
+      "block_order": [
+        "443d42ac-8202-4de5-956a-b8345a8ff69b",
+        "3d7c625a-80a4-4d35-bfeb-0c4493306e7e",
+        "8aff6e8e-b859-4cbf-932d-e6d4274fd710",
+        "5ffdcd79-2790-43e9-8e0f-cc1ad53a5a2d",
+        "88eabac9-4533-490a-90c1-b8de8458a023",
+        "e9d59b0c-522b-4769-9a6a-a6302d40fb77",
+        "e7b1c5fa-7c20-42b6-aa1b-fa3fa6316427",
+        "22cf682c-6831-4d0a-9a02-c4848b69262d"
+      ],
+      "settings": {
+        "heading": "Team"
+      }
+    },
+    "careers-benefits": {
+      "type": "careers-benefits",
+      "disabled": true,
+      "blocks": {
+        "335c68a8-3043-436d-85a7-cbfa0ea6a363": {
+          "type": "block",
+          "settings": {
+            "icon": "shopify:\/\/shop_images\/icon-1.png",
+            "title": "Team Work",
+            "paragraph": "Heading should be visible above the text block. This is more copy about this subject."
+          }
+        },
+        "6d2bc451-997a-4de5-b960-31edadba4954": {
+          "type": "block",
+          "settings": {
+            "icon": "shopify:\/\/shop_images\/icon-2.png",
+            "title": "High quality materials",
+            "paragraph": "Heading should be visible above the text block. This is more copy about this subject."
+          }
+        },
+        "e93ca9fd-7015-42e0-8647-d7ac12e5c0ad": {
+          "type": "block",
+          "settings": {
+            "icon": "shopify:\/\/shop_images\/icon-3.png",
+            "title": "Goals",
+            "paragraph": "Heading should be visible above the text block. This is more copy about this subject."
+          }
+        },
+        "0807dc40-1d07-4300-9663-c7d39fa860ff": {
+          "type": "block",
+          "settings": {
+            "icon": "shopify:\/\/shop_images\/icon-4.png",
+            "title": "Competitive Salary",
+            "paragraph": "Heading should be visible above the text block. This is more copy about this subject."
+          }
+        },
+        "e5e0eb6f-5695-4930-a35f-63dca7f909ed": {
+          "type": "block",
+          "settings": {
+            "icon": "shopify:\/\/shop_images\/icon-5.png",
+            "title": "High quality materials",
+            "paragraph": "Heading should be visible above the text block. This is more copy about this subject."
+          }
+        },
+        "8a60eda7-58cd-47d9-88c2-c5abd829a703": {
+          "type": "block",
+          "settings": {
+            "icon": "shopify:\/\/shop_images\/icon-6.png",
+            "title": "Achievments",
+            "paragraph": "Heading should be visible above the text block. This is more copy about this subject."
+          }
+        }
+      },
+      "block_order": [
+        "335c68a8-3043-436d-85a7-cbfa0ea6a363",
+        "6d2bc451-997a-4de5-b960-31edadba4954",
+        "e93ca9fd-7015-42e0-8647-d7ac12e5c0ad",
+        "0807dc40-1d07-4300-9663-c7d39fa860ff",
+        "e5e0eb6f-5695-4930-a35f-63dca7f909ed",
+        "8a60eda7-58cd-47d9-88c2-c5abd829a703"
+      ],
+      "settings": {
+        "heading": "Benefits"
+      }
+    },
+    "careers-openings": {
+      "type": "careers-openings",
+      "disabled": true,
+      "blocks": {
+        "5d761321-26b9-43fa-9d4b-63614a929dbb": {
+          "type": "position",
+          "settings": {
+            "location": "New York, NY",
+            "title": "Senior Engineer",
+            "external_url": "https:\/\/example.com"
+          }
+        },
+        "5dd685bf-eb2c-4433-9720-8989af060a6f": {
+          "type": "position",
+          "disabled": true,
+          "settings": {
+            "location": "New York, NY",
+            "title": "Senior Engineer",
+            "external_url": "https:\/\/example.com"
+          }
+        },
+        "386fbb88-4a2c-4d90-afe8-e91e90c45592": {
+          "type": "position",
+          "settings": {
+            "location": "New York, NY",
+            "title": "Senior Engineer",
+            "external_url": "https:\/\/example.com"
+          }
+        }
+      },
+      "block_order": [
+        "5d761321-26b9-43fa-9d4b-63614a929dbb",
+        "5dd685bf-eb2c-4433-9720-8989af060a6f",
+        "386fbb88-4a2c-4d90-afe8-e91e90c45592"
+      ],
+      "settings": {
+        "heading": "Current Openings",
+        "footnote": "<p>Want to join our group of shoe obsessed souls? <br\/><a href=\"mailto:jobs@samuelhubbard.com\" target=\"_blank\" title=\"mailto:jobs@samuelhubbard.com\">jobs@samuelhubbard.com<\/a><\/p>"
+      }
+    }
+  },
+  "order": [
+    "careers-intro",
+    "careers-overview",
+    "careers-video",
+    "careers-team",
+    "careers-benefits",
+    "careers-openings"
+  ]
+}
